@@ -52,14 +52,9 @@ function TldrPlus() {
             script will work without input, but it will keep trying to catch
             one. The deployment finally succeeded with this adjustment. I then
             proceeded to do a webhook with my Azure function URL and the
-            Telegram bot API, and the TLDR+ bot was finished.
+            Telegram bot API, and the TLDR+ bot was finished. You may find him
+            @TLDRplus_bot on Telegram.
           </p>
-        </div>
-        <div className="project-Pages-Photos-Container">
-          <img src={photo1}></img>
-          <img src={photo2}></img>
-          <img src={photo3}></img>
-          <img src={photo4}></img>
         </div>
       </div>
     </div>

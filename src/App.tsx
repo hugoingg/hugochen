@@ -36,8 +36,9 @@ function App() {
   return (
     <>
       <NavBar />
-      <Outlet />
-      <div className="pagecontainer">{component}</div>
+      <div className="pagecontainer">
+        <Outlet />
+      </div>
       <PageFooter />
     </>
   );

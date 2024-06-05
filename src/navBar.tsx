@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 function NavBar() {
   return (
     <nav className="Nav-Bar">
-      <a href="/" className="Site-Title">
+      <a href="/hugochen/" className="Site-Title">
         Hugo Chen
       </a>
       <ul>

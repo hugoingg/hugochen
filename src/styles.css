@@ -644,7 +644,7 @@ blockquote::after {
         margin-bottom: 0;
         padding:0;
         justify-content: center;
-        letter-spacing: 9px;
+        letter-spacing: 2px;
     }
     .header-text h2 {
         font-size: 18px;
@@ -690,5 +690,9 @@ blockquote::after {
         padding: 0;
         align-items: center;
         justify-content: center;
+    }
+    .project-Pages-Photos-Container img{
+        width: 40vh;
+        height: auto;
     }
 }

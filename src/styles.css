@@ -656,7 +656,7 @@ blockquote::after {
         padding: 0 65px;
     }
     .mycontacts-icons{
-        gap:20px;
+        gap:10px;
     }
     .timeline {
         width: 80vw;

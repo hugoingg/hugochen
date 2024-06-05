@@ -39,7 +39,9 @@ function Flowremi() {
           </p>
         </div>
         <div className="project-Pages-Photos-Container">
-          <img src={photo1}></img>
+          <div className="project-Pages-Photos-Container">
+            <img src={photo1}></img>
+          </div>
           <video src={video1} controls></video>
           <video src={video2} controls></video>
           <video src={video3} controls></video>

@@ -48,10 +48,6 @@ function Mastermind() {
         </div>
         <div className="project-Pages-Photos-Container">
           <video src={video} controls></video>
-          <img src={photo1}></img>
-          <img src={photo2}></img>
-          <img src={photo3}></img>
-          <img src={photo4}></img>
         </div>
       </div>
     </div>

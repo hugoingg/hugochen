@@ -2,6 +2,7 @@ import picturePersonalWeb from "./media/personalblog.jpg";
 import picFlowremi from "./media/flowremiCoverPhoto.jpg";
 import picTLDR from "./media/TLDR+.png";
 import picMastermind from "./media/mastermind.jpg";
+import arduinologo from "./media/flwrm-pics/Arduino_Logo.svg";
 
 function ProjectPage() {
   return (
@@ -41,8 +42,8 @@ function ProjectPage() {
               freshmen.
             </p>
             <div className="icons-container-projects">
-              <i className="fa-brands fa-c"></i>
-              <i className="fa-brands fa-arduino-uno"></i>
+              <i className="fa-brands fa-c"></i>{" "}
+              {/*Arduino Logo, replace C with actual CPP logo*/}
             </div>
             <br></br>
             <a href="/hugochen/projects/Flowremi" className="btn-card">
@@ -79,7 +80,8 @@ function ProjectPage() {
             <div className="icons-container-projects">
               <i className="fa-brands fa-telegram"></i>
               <i className="fa-brands fa-python"></i>
-              <i className="fa-brands fa-microsoft"></i>
+              <i className="fa-brands fa-microsoft"></i>{" "}
+              {/*replace Microsoft logo with Microsoft Azure logo*/}
             </div>
             <br></br>
             <a href="/hugochen/projects/TldrPlus" className="btn-card">

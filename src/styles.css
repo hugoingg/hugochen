@@ -218,7 +218,6 @@ footer {
 .header-text h1 {
     font-size: 80px;
     margin-top: 0;
-    margin-bottom: 0;
     display: flex;
     justify-content: center;
     letter-spacing: 8px;
@@ -639,13 +638,13 @@ blockquote::after {
         text-align: center;
         margin: 10px 0;
     }
-
     .header-text h1 {
         font-size: 55px;
         margin-top: 0;
         margin-bottom: 0;
-        display: flex;
+        padding:0;
         justify-content: center;
+        letter-spacing: 9px;
     }
     .header-text h2 {
         font-size: 18px;
@@ -685,6 +684,11 @@ blockquote::after {
         transform: translateX(-50%);
     }
     .projects-Pages p{
-        padding:0 55px;
+        padding:0 30px;
+    }
+    .project-Pages-Photos-Container{
+        padding: 0;
+        align-items: center;
+        justify-content: center;
     }
 }

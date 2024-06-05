@@ -637,7 +637,7 @@ blockquote::after {
     .footerNav ul li {
         width: 100%;
         text-align: center;
-        margin: 10px;
+        margin: 10px 0;
     }
 
     .header-text h1 {
@@ -652,6 +652,9 @@ blockquote::after {
     }
     .profile-image {
         width:120px;
+    }
+    .desc-container {
+        padding: 0 65px;
     }
     .mycontacts-icons{
         gap:20px;
@@ -680,5 +683,8 @@ blockquote::after {
         top: -0.5em;
         left: 50%;
         transform: translateX(-50%);
+    }
+    .projects-Pages p{
+        padding:0 55px;
     }
 }

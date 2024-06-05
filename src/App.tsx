@@ -7,6 +7,7 @@ import PersonalWeb from "./projectPages/personalWebsite";
 import TldrPlus from "./projectPages/TLDRplus";
 import Mastermind from "./projectPages/mastermind";
 import Flowremi from "./projectPages/flowremi";
+import { Outlet } from "react-router-dom";
 function App() {
   let component;
   switch (window.location.pathname) {
@@ -35,6 +36,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <Outlet />
       <div className="pagecontainer">{component}</div>
       <PageFooter />
     </>

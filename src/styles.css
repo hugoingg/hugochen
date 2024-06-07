@@ -688,14 +688,16 @@ blockquote::after {
     }
     .projects-Pages p{
         padding:0 30px;
+        font-size:small;
     }
     .project-Pages-Photos-Container{
         padding: 0;
         align-items: center;
         justify-content: center;
+        width:100%;
     }
     .project-Pages-Photos-Container img{
-        width: 40vh;
+        width: 20vw;
         height: auto;
     }
 }

@@ -53,8 +53,15 @@ function TldrPlus() {
             one. The deployment finally succeeded with this adjustment. I then
             proceeded to do a webhook with my Azure function URL and the
             Telegram bot API, and the TLDR+ bot was finished. You may find him
-            @TLDRplus_bot on Telegram.
+            @TLDRplus_bot on Telegram. However, the bot's performance has not
+            been optimal since 7th June 2024. I am still working on it!
           </p>
+        </div>
+        <div className="project-Pages-Photos-Container">
+          <img src={photo1}></img>
+          <img src={photo2}></img>
+          <img src={photo3}></img>
+          <img src={photo4}></img>
         </div>
       </div>
     </div>

@@ -2,8 +2,9 @@ import picturePersonalWeb from "./media/personalblog.jpg";
 import picFlowremi from "./media/flowremiCoverPhoto.jpg";
 import picTLDR from "./media/TLDR+.png";
 import picMastermind from "./media/mastermind.jpg";
-import arduinologo from "./media/flwrm-pics/Arduino_Logo.svg";
-
+import arduino from "./media/arduino-official.svg";
+import azure from "./media/azure-2.svg";
+import cpp from "./media/c.svg";
 function ProjectPage() {
   return (
     <div className="experiencesPage">
@@ -42,8 +43,12 @@ function ProjectPage() {
               freshmen.
             </p>
             <div className="icons-container-projects">
-              <i className="fa-brands fa-c"></i>{" "}
-              {/*Arduino Logo, replace C with actual CPP logo*/}
+              <div className="custom-icon">
+                <img src={cpp}></img>
+              </div>
+              <div className="custom-icon">
+                <img src={arduino}></img>
+              </div>
             </div>
             <br></br>
             <a href="/hugochen/projects/Flowremi" className="btn-card">
@@ -80,8 +85,9 @@ function ProjectPage() {
             <div className="icons-container-projects">
               <i className="fa-brands fa-telegram"></i>
               <i className="fa-brands fa-python"></i>
-              <i className="fa-brands fa-microsoft"></i>{" "}
-              {/*replace Microsoft logo with Microsoft Azure logo*/}
+              <div className="custom-icon">
+                <img src={azure}></img>
+              </div>
             </div>
             <br></br>
             <a href="/hugochen/projects/TldrPlus" className="btn-card">

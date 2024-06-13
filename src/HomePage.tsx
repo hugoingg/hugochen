@@ -2,6 +2,9 @@ import profile from "./media/web header.jpg";
 import picMastermind from "./media/mastermind.jpg";
 import picFlowremi from "./media/flowremiCoverPhoto.jpg";
 import picTLDR from "./media/TLDR+.png";
+import arduino from "./media/arduino-official.svg";
+import azure from "./media/azure-2.svg";
+import cpp from "./media/c.svg";
 function HomePage() {
   return (
     <div>
@@ -57,7 +60,9 @@ function HomePage() {
               <div className="icons-container-projects">
                 <i className="fa-brands fa-telegram"></i>
                 <i className="fa-brands fa-python"></i>
-                <i className="fa-brands fa-microsoft"></i>
+                <div className="custom-icon">
+                  <img src={azure}></img>
+                </div>
               </div>
               <a href="/hugochen/projects/TldrPlus" className="btn-card">
                 Read More
@@ -74,8 +79,12 @@ function HomePage() {
                 freshmen.
               </p>
               <div className="icons-container-projects">
-                <i className="fa-brands fa-c"></i>
-                <i className="fa-brands fa-arduino-uno"></i>
+                <div className="custom-icon">
+                  <img src={cpp}></img>
+                </div>
+                <div className="custom-icon">
+                  <img src={arduino}></img>
+                </div>
               </div>
               <a href="/hugochen/projects/Flowremi" className="btn-card">
                 Read More

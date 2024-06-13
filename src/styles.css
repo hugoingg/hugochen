@@ -472,8 +472,13 @@ blockquote::after {
     gap:0.7rem;
 }
 .icons-container-projects i{
-    font-size:1.3em;
+    font-size:1.6em;
 }
+.icons-container-projects img{
+    height:25px;
+    object-fit: cover;
+}
+
 /* EXPERIENCE PAGE */
 .experiencesPage {
     margin: 0;
@@ -628,18 +633,26 @@ blockquote::after {
         justify-content: center;
         text-align: center;
     }
-
+    blockquote{
+        font-size:x-large;
+    }
     .footerNav ul {
         flex-direction: column;
     }
-
+    .exph-container{
+        font-size:large;
+        padding: 0 45px;
+    }
+    .project-highlights h1{
+        font-size: x-large;
+    }
     .footerNav ul li {
         width: 100%;
         text-align: center;
         margin: 10px 0;
     }
     .header-text h1 {
-        font-size: 55px;
+        font-size: 45px;
         margin-top: 0;
         margin-bottom: 0;
         padding:0;
@@ -647,13 +660,13 @@ blockquote::after {
         letter-spacing: 2px;
     }
     .header-text h2 {
-        font-size: 18px;
+        font-size: 15px;
     }
     .profile-image {
-        width:120px;
+        width:100px;
     }
     .desc-container {
-        padding: 0 65px;
+        padding: 0 45px;
     }
     .desc-container p{
         font-size:1rem;
@@ -689,6 +702,14 @@ blockquote::after {
     .projects-Pages p{
         padding:0 30px;
         font-size:small;
+    }
+    .breaker-line {
+        padding:0 60px;
+        margin: 0;
+    }
+    
+    .breaker-line hr {
+        border-top: 4px solid red;
     }
     .project-Pages-Photos-Container{
         padding: 0;

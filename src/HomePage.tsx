@@ -9,7 +9,7 @@ import "./styles/home.css";
 
 function HomePage() {
   return (
-    <div>
+    <div className="wrapper">
       <div className="homeHeader-container" id="top">
         <div className="homeHeader">
           <div className="header-text">
@@ -50,89 +50,20 @@ function HomePage() {
         </p>
       </div>
       <div className="project-highlights">
-        <h1>Projects Highlights</h1>
-        <div className="breaker-line">
-          <hr></hr>
-        </div>
-        <div className="cards-container">
-          <div className="card">
-            <img src={picTLDR}></img>
-            <div className="card-content">
-              <h3>TLDR+</h3>
-              <p>
-                Telegram bot to summarize articles using Natural Language
-                Processing and Serverless Computing.
-              </p>
-              <div className="icons-container-projects">
-                <i className="fa-brands fa-telegram"></i>
-                <i className="fa-brands fa-python"></i>
-                <div className="custom-icon">
-                  <img src={azure}></img>
-                </div>
-              </div>
-              <a href="/hugochen/projects/TldrPlus" className="btn-card">
-                Read More
+        <ul className="formatter">
+          <li></li>
+          <li>
+            <p>
+              <h3 className="technical">TECHNICAL</h3>
+              <h1>Projects</h1>
+              <h2>From personal to professional works.</h2>
+              <div className="gap"></div>
+              <a>
+                <h3 className="see-projects">See Projects</h3>
               </a>
-            </div>
-          </div>
-          <div className="card">
-            <img src={picFlowremi}></img>
-            <div className="card-content">
-              <h3>FLOWREMI</h3>
-              <p>
-                From Music to Light: a light installation to establish greater
-                interraction within the campus of SUTD.
-              </p>
-              <div className="icons-container-projects">
-                <div className="custom-icon">
-                  <img src={cpp}></img>
-                </div>
-                <div className="custom-icon">
-                  <img src={arduino}></img>
-                </div>
-              </div>
-              <a href="/hugochen/projects/Flowremi" className="btn-card">
-                Read More
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <img src={picMastermind}></img>
-            <div className="card-content">
-              <h3>MASTERMIND</h3>
-              <p>
-                Classic Mastermind as a digital game. Comitted to only use
-                Python, this project was made by 5 students of SUTD.
-              </p>
-              <div className="icons-container-projects">
-                <i className="fa-brands fa-python"></i>
-              </div>
-              <a href="/hugochen/projects/Mastermind" className="btn-card">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="ph-button-container">
-          <a href="/hugochen/projects">
-            <button id="ph-button">See All Projects</button>
-          </a>
-        </div>
-      </div>
-      <div className="project-highlights">
-        <h1>Experiences</h1>
-        <div className="breaker-line">
-          <hr></hr>
-        </div>
-        <p className="exph-container">
-          Awardee of ASEAN Undergraduate Scholarship to SUTD | Community
-          Leader/President | Teacher | Events Planner | Website Development Team
-        </p>
-        <div className="ph-button-container" id="contacs">
-          <a href="/hugochen/background">
-            <button id="ph-button">Read More</button>
-          </a>
-        </div>
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
   );

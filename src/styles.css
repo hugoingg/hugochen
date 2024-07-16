@@ -4,68 +4,17 @@
 html{
     scroll-behavior: smooth;
 }
-
 body::-webkit-scrollbar{
     display: none;
 }
 .Nav-Bar * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
 }
-
 .pagecontainer {
     margin: 0;
-}
-
-/* NAVIGATION BAR */
-.Nav-Bar {
-    background-color: rgb(30, 30, 30);
-    color: antiquewhite;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
-    padding: 0 1rem;
-    width:100%;
-    position:fixed;
-    z-index:2;
-}
-
-.Nav-Bar ul {
-    padding-left: 0px;
-    margin-right: 25px;
-    margin-top:0;
-    margin-bottom:0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.Nav-Bar a {
-    color: inherit;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0.25rem;
-}
-
-.Site-Title {
-    font-size: 1.7rem;
-    justify-content: left;
-}
-
-.Nav-Bar li.active {
-    /*background-color: rgb(82, 82, 82);*/
-    color:red;
-}
-
-.Nav-Bar li:hover {
-    color:red;
-    transition:0.2s;
 }
 /* PROJECTS PAGE */
 
@@ -297,38 +246,14 @@ body {
         font-size:large;
         padding: 0 45px;
     }
-    .project-highlights h1{
-        font-size: x-large;
-    }
     .footerNav ul li {
         width: 100%;
         text-align: center;
         margin: 10px 0;
     }
-    .header-text h1 {
-        font-size: 35px;
-        justify-content: center;
-        letter-spacing: 2px;
-    }
-    .header-text h2 {
-        font-size: 10px;
-    }
-    .profile-image {
-        width:100px;
-    }
-    .desc-container {
-        padding: 0 45px;
-    }
-    .desc-container p{
-        font-size:1rem;
-    }
-    .mycontacts-icons{
-        gap:2px;
-    }
     .timeline {
         width: 80vw;
     }
-
     .timeline .checkpoint {
         width: 100%;
         transform: none;
@@ -336,7 +261,6 @@ body {
         padding-right: 0;
         border: none;
     }
-
     .timeline .checkpoint::before {
         width: 3px;
         height: 4em;

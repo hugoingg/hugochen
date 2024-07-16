@@ -1,10 +1,5 @@
 import profile from "./media/web header.jpg";
-import picMastermind from "./media/mastermind.jpg";
-import picFlowremi from "./media/flowremiCoverPhoto.jpg";
-import picTLDR from "./media/TLDR+.png";
-import arduino from "./media/arduino-official.svg";
-import azure from "./media/azure-2.svg";
-import cpp from "./media/c.svg";
+import proj from "./media/proj.png";
 import "./styles/home.css";
 
 function HomePage() {
@@ -41,25 +36,28 @@ function HomePage() {
       <div className="desc-container">
         <p>
           Welcome to my blog! I am Hugo, a Computer Science undergraduate in
-          Singapore University of Technology of Design (SUTD). One of my biggest
-          passion is building systems, such as softwares and hardwares, using my
-          knowledge and technologies. I believe that a great use of knowledge
-          shapes useful technologies, that in turn ease our lives. I have
-          displayed my projects and experiences in this blog, feel free to take
-          a look!
+          Singapore University of Technology of Design (SUTD). I have a strong
+          passion in building systems, such as softwares and hardwares, using my
+          knowledge and technologies. My projects and experiences are displayed
+          in this website. Feel free to take a look!
         </p>
       </div>
       <div className="project-highlights">
         <ul className="formatter">
-          <li></li>
+          <li>
+            <img src={proj} alt="" />
+          </li>
           <li>
             <p>
               <h3 className="technical">TECHNICAL</h3>
               <h1>Projects</h1>
               <h2>From personal to professional works.</h2>
               <div className="gap"></div>
-              <a>
-                <h3 className="see-projects">See Projects</h3>
+              <a href="/hugochen/projects">
+                <div className="see-projects">
+                  <h3>See Projects</h3>
+                  <span className="arrow"> &#129170;</span>
+                </div>
               </a>
             </p>
           </li>

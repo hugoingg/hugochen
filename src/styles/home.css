@@ -4,7 +4,8 @@
     justify-content: center;
 }
 .homeHeader {
-    background-image: url(../media/hd-bg3.png);
+    background-image: url(../media/hd-bg4.png);
+    background-position: center 100%;
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 62px;
@@ -12,7 +13,6 @@
 .header-text {
     color:antiquewhite;
 }
-
 .header-text h2 {
     letter-spacing: 3px;
     font-size: 20px;
@@ -22,7 +22,6 @@
     justify-content: center;
     font-weight: lighter;
 }
-
 .header-text h1 {
     font-size: 50px;
     margin-top: 0;
@@ -52,12 +51,10 @@
     font-size: 1.5rem;
     color: antiquewhite;
 }
-
 .mycontacts-icons a:hover {
     opacity:1;
     transition:0.3s;
 }
-
 .profile-image {
     border-radius: 50%;
     width: 110px;
@@ -65,64 +62,55 @@
     padding: 2px;
     justify-content: center;
 }
-
 .profile-container {
     display: flex;
     justify-content: center;
     margin-bottom: 8px;
 }
-
 .block-quote {
     color: #545454;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 blockquote {
     align-items: center;
     display: flex;
     position: relative;
     justify-content: center;
     width: 50%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: .5rem;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
-
 blockquote::before {
     content: '\201c';
     top: 10px;
     bottom: -40px;
     left: -45px;
 }
-
 blockquote::after {
     content: '\201d';
     bottom: -30px;
     right: -35px;
 }
-
 blockquote::before,
 blockquote::after {
     font-size: 6rem;
     position: absolute;
 }
-
 .desc-container {
     padding: 115px;
     padding-top: 0;
     padding-bottom: 0;
     color: rgb(20, 20, 20);
     text-align: justify;
-    line-height: 1.8rem;
+    line-height: 1.8rem;   
 }
-
 .desc-container p {
-    font-size: 17px;
     text-indent: 5%;
+    font-size: 17px;
 }
-
 .desc-container p::first-letter {
     font-size: 30px;
     color: red;
@@ -136,10 +124,18 @@ blockquote::after {
 .formatter{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .formatter li{
     list-style: none;
     width:50%;
+}
+.formatter li:first-child{
+    display:flex;
+    justify-content: center;
+}
+.formatter li img{
+    width:320px;
 }
 .formatter li p{
     line-height:16px;
@@ -148,18 +144,114 @@ blockquote::after {
 .formatter .technical{
     font-weight: lighter;
     font-size:14px;
+    color:rgb(30,30,30);
 }
 .formatter h1{
     font-size:28px;
+    color:rgb(30,30,30);
 }
 .formatter h2{
     font-weight:lighter;
     font-size:20px;
+    color:rgb(30,30,30);
+}
+.see-projects{
+    font-size:23px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.formatter li a{
+    text-decoration: none;
+    color:rgb(30,30,30);
+}
+.arrow{
+    font-size:40px;
+    transform:translateY(-2px);
 }
 .gap{
     height:60px;
 }
-
+@media (max-width:1150px) {
+    blockquote{
+        text-align: center;
+        font-size:1.2rem;
+    }
+    blockquote::before {
+        top: 10px;
+        bottom: -40px;
+    }
+    
+    blockquote::after {
+        bottom: -15px;
+    }
+    blockquote::before,
+    blockquote::after {
+        font-size: 3rem;
+    }
+    .header-text h1 {
+        font-size: 35px;
+        justify-content: center;
+        letter-spacing: 2px;
+    }
+    .header-text h2 {
+        font-size: 10px;
+    }
+    .profile-image {
+        width:90px;
+    }
+    .desc-container {
+        padding: 0 35px;
+    }
+    .desc-container p{
+        font-size:0.9rem;
+        line-height: 25px;
+    }
+    .mycontacts-icons{
+        gap:2px;
+    }
+    .mycontacts-icons a{
+        padding: 3px;
+    }
+    .mycontacts-icons a i{
+        font-size:1rem;
+        padding: 3px;
+    }
+    .project-highlights ul{
+        flex-direction: column;
+        padding:0;
+    }
+    .formatter li{
+        width:100%;
+    }
+    .formatter li p{
+        text-align: center;
+    }
+    .formatter li p{
+        line-height:13px;
+        padding: 10px 0;
+    }
+    .formatter .technical{
+        font-size:10px;
+    }
+    .formatter h1{
+        font-size:25px;
+    }
+    .formatter h2{
+        font-size:15px;
+    }
+    .gap{
+        height:40px;
+    }
+    .see-projects{
+        font-size:20px;
+        justify-content: center;
+    }
+    .formatter li img{
+        padding-top:30px;
+        width:250px;
+    }
+}
 
 
 

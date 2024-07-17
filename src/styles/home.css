@@ -156,10 +156,15 @@ blockquote::after {
     color:rgb(30,30,30);
 }
 .see-projects{
-    font-size:23px;
+    font-size:20px;
     display:flex;
     align-items: center;
     gap: 10px;
+}
+.see-projects:hover .arrow{
+    transition-duration:0.3s;
+    transform: translateX(8px);
+
 }
 .formatter li a{
     text-decoration: none;
@@ -167,7 +172,8 @@ blockquote::after {
 }
 .arrow{
     font-size:40px;
-    transform:translateY(-2px);
+    transition-duration: 0.3s;
+    
 }
 .gap{
     height:60px;
@@ -244,7 +250,7 @@ blockquote::after {
         height:40px;
     }
     .see-projects{
-        font-size:20px;
+        font-size:19px;
         justify-content: center;
     }
     .formatter li img{

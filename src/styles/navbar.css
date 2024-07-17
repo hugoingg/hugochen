@@ -1,3 +1,6 @@
+.Nav-Bar * {
+    box-sizing: border-box;
+}
 .Nav-Bar {
     background-color: rgba(59, 91, 124, 0.3);
     -webkit-backdrop-filter: blur(50px);
@@ -47,5 +50,8 @@
 @media (max-width:1150px) {
     .Site-Title{
         font-size:1rem;
+    }
+    .Nav-Bar li{
+        font-size:12px;
     }
 }

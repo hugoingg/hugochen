@@ -8,7 +8,6 @@ function NavBar() {
       </a>
       <ul>
         <CustomLinkP href="/hugochen/projects">Projects</CustomLinkP>
-        <CustomLink href="/hugochen/background">Experiences</CustomLink>
       </ul>
     </nav>
   );

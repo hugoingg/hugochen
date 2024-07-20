@@ -8,7 +8,7 @@
     background-position: center 100%;
     background-size: cover;
     padding-top: 50px;
-    padding-bottom: 62px;
+    padding-bottom: 45px;
 }
 .header-text {
     color:antiquewhite;
@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     gap:30px;
-    margin-bottom:28px;
+    margin-bottom:0;
     padding: 0;
 }
 .mycontacts-icons a {
@@ -78,7 +78,7 @@ blockquote {
     justify-content: center;
     width: 50%;
     margin: 2rem auto;
-    padding: .5rem;
+    padding: .1rem;
     font-size: 1.5rem;
     line-height: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
@@ -100,22 +100,82 @@ blockquote::after {
     position: absolute;
 }
 .desc-container {
-    padding: 115px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 115px;
     color: rgb(20, 20, 20);
     text-align: justify;
-    line-height: 1.8rem;   
+    line-height: 1.7rem;   
 }
 .desc-container p {
     text-indent: 5%;
-    font-size: 17px;
+    font-size: 16px;
 }
 .desc-container p::first-letter {
     font-size: 30px;
     color: red;
     font-weight: bold;
     letter-spacing: 3px;
+}
+.slider-body{
+    display:grid;
+    place-items: center;
+    width:100%;
+    overflow: hidden;
+}
+.slider{
+    height:100%;
+    margin:auto;
+    position:relative;
+    width:100%;
+    display:grid;
+    place-items: center;
+}
+.slide-track{
+    display:flex;
+    width:calc(250px*14);
+    animation:scroll 40s linear infinite;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*7));
+    }
+}
+.slide{
+    height:200px;
+    width:250px;
+    display:flex;
+    align-items: center;
+    padding:15px;
+    perspective: 100px;
+}
+.slide img{
+    width:100%;
+    object-fit: cover;
+    transition:transform 1s;
+}
+.slider img:hover{
+    transform:translateZ(20px);
+}
+.slider-body::before,
+.slider-body::after{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    content:'';
+    height:250px;
+    position:absolute;
+    width:15%;
+    z-index:2;
+}
+.slider-body::before{
+    left:0;
+}
+.slider-body::after{
+    right:0;
+    transform:rotateZ(180deg);
 }
 .project-highlights{
     background-color: rgb(219, 229, 231);
@@ -201,7 +261,7 @@ blockquote::after {
         letter-spacing: 2px;
     }
     .header-text h2 {
-        font-size: 10px;
+        font-size: 14px;
     }
     .profile-image {
         width:90px;

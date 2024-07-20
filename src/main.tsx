@@ -5,7 +5,6 @@ import "./styles.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./HomePage";
 import ProjectPage from "./ProjectPage";
-import SocialsPage from "./BackgroundPage";
 import PersonalWeb from "./projectPages/personalWebsite";
 import TldrPlus from "./projectPages/TLDRplus";
 import Mastermind from "./projectPages/mastermind";
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
       {
         path: "/hugochen/projects",
         element: <ProjectPage />,
-      },
-      {
-        path: "/hugochen/background",
-        element: <SocialsPage />,
       },
       {
         path: "/hugochen/projects/personalWeb",

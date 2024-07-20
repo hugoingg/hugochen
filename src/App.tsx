@@ -1,7 +1,6 @@
 import NavBar from "./navBar";
 import HomePage from "./HomePage";
 import ProjectPage from "./ProjectPage";
-import SocialsPage from "./BackgroundPage";
 import PageFooter from "./footer";
 import PersonalWeb from "./projectPages/personalWebsite";
 import TldrPlus from "./projectPages/TLDRplus";
@@ -16,9 +15,6 @@ function App() {
       break;
     case "/hugochen/projects":
       component = <ProjectPage />;
-      break;
-    case "/hugochen/background":
-      component = <SocialsPage />;
       break;
     case "/hugochen/projects/personalWeb":
       component = <PersonalWeb />;

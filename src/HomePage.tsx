@@ -1,6 +1,13 @@
 import profile from "./media/web header.jpg";
 import proj from "./media/proj.png";
 import "./styles/home.css";
+import sld1 from "./media/sliders/sliders.png";
+import sld2 from "./media/sliders/sliders1.png";
+import sld3 from "./media/sliders/sliders2.png";
+import sld4 from "./media/sliders/sliders3.png";
+import sld5 from "./media/sliders/sliders4.png";
+import sld6 from "./media/sliders/sliders5.png";
+import sld7 from "./media/sliders/sliders6.png";
 
 function HomePage() {
   return (
@@ -41,6 +48,54 @@ function HomePage() {
           knowledge and technologies. My projects and experiences are displayed
           in this website. Feel free to take a look!
         </p>
+      </div>
+      <div className="slider-body">
+        <div className="slider">
+          <div className="slide-track">
+            <div className="slide">
+              <img src={sld1}></img>
+            </div>
+            <div className="slide">
+              <img src={sld2}></img>
+            </div>
+            <div className="slide">
+              <img src={sld3}></img>
+            </div>
+            <div className="slide">
+              <img src={sld4}></img>
+            </div>
+            <div className="slide">
+              <img src={sld5}></img>
+            </div>
+            <div className="slide">
+              <img src={sld6}></img>
+            </div>
+            <div className="slide">
+              <img src={sld7}></img>
+            </div>
+            <div className="slide">
+              <img src={sld1}></img>
+            </div>
+            <div className="slide">
+              <img src={sld2}></img>
+            </div>
+            <div className="slide">
+              <img src={sld3}></img>
+            </div>
+            <div className="slide">
+              <img src={sld4}></img>
+            </div>
+            <div className="slide">
+              <img src={sld5}></img>
+            </div>
+            <div className="slide">
+              <img src={sld6}></img>
+            </div>
+            <div className="slide">
+              <img src={sld7}></img>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="project-highlights">
         <ul className="formatter">

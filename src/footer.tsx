@@ -27,18 +27,12 @@ function PageFooter() {
               <li>
                 <a href="/hugochen/projects">Projects</a>
               </li>
-              <li>
-                <a href="/hugochen/background">Experiences</a>
-              </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="footerEndLine">
-        <p>
-          Copyright &copy;2024; Made by{" "}
-          <span className="designer">Hugo Chen</span>
-        </p>
+        <p>&copy; 2024; Made by Hugo Chen</p>
       </div>
     </footer>
   );

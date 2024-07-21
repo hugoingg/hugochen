@@ -3,7 +3,7 @@ footer {
 }
 .footer-container {
     width: 100%;
-    padding: 40px 0px 0px;
+    padding-top: 10px;
 }
 .social-icons {
     display: flex;
@@ -13,21 +13,16 @@ footer {
 .social-icons a {
     text-decoration: none;
     padding: 8px;
-    background-color: antiquewhite;
-    border-radius: 50%;
     opacity:0.7;
 }
 .social-icons a i {
-    font-size: 1.5rem;
-    color: rgb(30, 30, 30);
+    font-size: 2rem;
+    color: antiquewhite;
     opacity: 0.8;
 }
 .social-icons a:hover {
     opacity: 1;
     transition: 0.2s;
-}
-.footerNav {
-    margin: 20px 0;
 }
 .footerr {
     display: flex;
@@ -42,7 +37,7 @@ footer {
 .footerNav ul a {
     text-decoration: none;
     color: antiquewhite;
-    margin: 20px;
+    margin:0 20px;
     font-size: 15px;
     opacity:0.8;
 }
@@ -51,13 +46,12 @@ footer {
     opacity:1;
 }
 .footerEndLine {
-    background-color: rgb(20,20,20);
     text-align: center;
-    padding: 5px;
+    padding-bottom: 2px;
 }
 .footerEndLine p {
     color: antiquewhite;
-    font-size:10px;
+    font-size:11px;
 }
 .footerr {
     box-sizing: border-box;
@@ -84,6 +78,6 @@ footer {
         font-size: 13px;
     }
     .footerEndLine p{
-        font-size: 8px;
+        font-size: 9px;
     }
 }

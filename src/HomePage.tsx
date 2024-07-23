@@ -150,52 +150,39 @@ function HomePage() {
         <div className="timeline">
           <div className="checkpoint">
             <div>
-              <h2>Awardee of ASEAN Undergraduate Scholarship</h2>
-              <p>
-                <h5>Jul 2023</h5>I was awarded the ASEAN Undergraduate
-                Scholarship to study in the Singapore University of Technology
-                and Design (SUTD).
-              </p>
+              <h2>Awardee of ASEAN Scholarship</h2>
+              <h5>Jul 2023</h5>I was awarded the ASEAN Undergraduate Scholarship
+              to study in Singapore University of Technology and Design (SUTD).
             </div>
           </div>
           <div className="checkpoint">
             <div>
               <h2>Teacher at Local Tuition Centre</h2>
-              <p>
-                <h5>May 2023 - Aug 2023</h5>I was one of the teachers in a
-                tuition centre in my hometown of Solo, Indonesia. The place was
-                locally known as "Les-lesan Ci Fani".
-              </p>
+              <h5>May 2023 - Aug 2023</h5>I taught high school students in my
+              hometown of Solo, Indonesia. The tuition centre was locally known
+              as "Les-lesan Ci Fani".
             </div>
           </div>
           <div className="checkpoint">
             <div>
               <h2>Member of Google Student Developer Club</h2>
-              <p>
-                <h5>Oct 2023 - Oct 2024</h5>There was a Google Student Developer
-                Club in SUTD known as Digital Design and Development (3DC). I
-                was part of the website building team of the club.
-              </p>
+              <h5>Oct 2023 - Oct 2024</h5>I was part of the website team of the
+              club.
             </div>
           </div>
           <div className="checkpoint">
             <div>
               <h2>President of PADI</h2>
-              <p>
-                <h5>Mar 2024 - Mar 2025</h5>In SUTD. there is a club known as
-                PADI, which is the community of Indonesian students in the
-                school. This organization is part of a greater community of
-                Indonesian students in Singapore, known as PPIS.
-              </p>
+              <h5>Mar 2024 - Mar 2025</h5>I was president of PADI, a community
+              of Indonesian students in SUTD. This organization is part of the
+              community of Indonesian students in Singapore, PPIS.
             </div>
           </div>
           <div className="checkpoint">
             <div>
               <h2>Internship at Nakamura</h2>
-              <p>
-                <h5>July 2024</h5>I went on an internship in Nakamura, one of
-                Indonesia's largest healthcare company.
-              </p>
+              <h5>July 2024</h5>I went on an internship in Nakamura, one of
+              Indonesia's largest healthcare company.
             </div>
           </div>
         </div>

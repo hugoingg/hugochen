@@ -8,7 +8,7 @@
     background-position: center 100%;
     background-size: cover;
     padding-top: 50px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
 }
 .header-text {
     color:antiquewhite;
@@ -165,7 +165,7 @@ blockquote::after {
     content:'';
     height:250px;
     position:absolute;
-    width:15%;
+    width:20%;
     z-index:2;
 }
 .slider-body::before{
@@ -183,6 +183,7 @@ blockquote::after {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:0;
 }
 .formatter li{
     list-style: none;
@@ -231,55 +232,47 @@ blockquote::after {
 .arrow{
     font-size:40px;
     transition-duration: 0.3s;
-    
 }
 .gap{
     height:60px;
 }
-/*.timeline-container{
-    background-image: url("../media//galaxy.jpg");
+.timeline-container{
+    background-image: url("../media//galaxy3.jpg");
+    background-size: cover;
+    padding: 3em 0;
 }
-*/
 .timeline {
-    margin: 1em auto;
+    margin: 0 auto;
     max-width: 34.15em;
 }
-
 .checkpoint {
     max-width: 34em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 2em 0;
     position: relative;
-    color:rgb(20, 20, 20);
+    color:rgb(255, 242, 183);
 }
-
 .checkpoint div {
-    border: 2px solid rgb(20,20,20);
+    border: 2px solid rgb(255, 242, 183);
     border-radius: 1em;
-    padding: 1em;
-}
-
-.checkpoint p {
     line-height: 24px;
-    color: rgb(30,30,30);
+    color: rgb(255, 242, 183);
+    backdrop-filter: blur(30px);
+    padding: 0.7em;
 }
-
 .checkpoint:nth-child(odd) {
-    border-left: 3px solid rgb(20,20,20);
+    border-left: 3px solid rgb(255, 242, 183);
     padding-left: 3em;
     transform: translateX(17em);
 }
-
 .checkpoint:nth-child(even) {
-    border-right: 3px solid rgb(20,20,20);
+    border-right: 3px solid rgb(255, 242, 183);
     padding-right: 3em;
     transform: translateX(-17em);
 }
-
 .checkpoint:nth-child(even)::before,
 .checkpoint:nth-child(odd)::before {
     content: '';
-    background: rgb(20,20,20);
+    background: rgb(255, 242, 183);
     width: 3em;
     height: 3px;
     position: absolute;
@@ -298,8 +291,8 @@ blockquote::after {
 .checkpoint:nth-child(odd) div::before,
 .checkpoint:nth-child(even) div::before {
     content: '';
-    background: rgb(20, 20, 20);
-    box-shadow: 0 0 0.5em #777;
+    background: rgb(255, 242, 183);
+    box-shadow: 0 0 0.5em #fdbd4f;
     width: 0.8em;
     height: 0.8em;
     position: absolute;

@@ -2,14 +2,14 @@ import React, { ReactNode } from "react";
 import "./styles/navbar.css";
 function NavBar() {
   return (
-    <nav className="Nav-Bar">
-      <a href="/hugochen/" className="Site-Title">
-        Hugo Chen
-      </a>
-      <ul>
-        <CustomLinkP href="/hugochen/projects">Projects</CustomLinkP>
-      </ul>
-    </nav>
+    <div className="nav-container">
+      <nav className="Nav-Bar">
+        <ul>
+          <CustomLink href="/hugochen/">Profile</CustomLink>
+          <CustomLinkP href="/hugochen/projects">Projects</CustomLinkP>
+        </ul>
+      </nav>
+    </div>
   );
 }
 interface CustomLinkProps {

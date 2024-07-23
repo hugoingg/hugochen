@@ -11,7 +11,7 @@
     padding-bottom: 40px;
 }
 .header-text {
-    color:antiquewhite;
+    color:rgb(255, 242, 183);
 }
 .header-text h2 {
     letter-spacing: 3px;
@@ -47,7 +47,7 @@
 }
 .mycontacts-icons a i {
     font-size: 2rem;
-    color: antiquewhite;
+    color: rgb(255, 242, 183);
 }
 .mycontacts-icons a:hover {
     opacity:1;
@@ -56,7 +56,7 @@
 .profile-image {
     border-radius: 50%;
     width: 110px;
-    background: antiquewhite;
+    background: rgb(255, 242, 183);
     padding: 2px;
     justify-content: center;
 }
@@ -207,6 +207,7 @@ blockquote::after {
 }
 .formatter h1{
     font-size:28px;
+    letter-spacing: 1px;
     color:rgb(30,30,30);
 }
 .formatter h2{
@@ -227,7 +228,7 @@ blockquote::after {
 }
 .formatter li a{
     text-decoration: none;
-    color:rgb(30,30,30);
+    color:rgb(30,30,30);    
 }
 .arrow{
     font-size:40px;
@@ -235,6 +236,49 @@ blockquote::after {
 }
 .gap{
     height:60px;
+}
+.experience-highlights{
+    background-color: #903D3D;
+}
+.experience-highlights li{
+    color:rgb(255, 242, 183);
+    list-style: none;
+    line-height:40px;
+}
+.experience-highlights ul{
+    padding:0;
+}
+.experience-highlights ul li:first-child{
+    padding-top:20px;
+    display:flex;
+    justify-content: center;
+}
+.experience-highlights li img{
+    width: 270px;
+}
+.experience-highlights ul{
+    margin: 0;
+}
+.experience-highlights h3{
+    margin:0;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    font-size:14px;
+}
+.experience-highlights h1{
+    margin:0;
+    letter-spacing: 1px;;
+    display: flex;
+    justify-content: center;
+    font-size:28px;
+}
+.experience-highlights h2{
+    margin:0;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    font-size:20px;
 }
 .timeline-container{
     background-image: url("../media//galaxy3.jpg");
@@ -256,7 +300,7 @@ blockquote::after {
     border-radius: 1em;
     line-height: 24px;
     color: rgb(255, 242, 183);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(100px);
     padding: 0.7em;
 }
 .checkpoint:nth-child(odd) {
@@ -292,7 +336,7 @@ blockquote::after {
 .checkpoint:nth-child(even) div::before {
     content: '';
     background: rgb(255, 242, 183);
-    box-shadow: 0 0 0.5em #fdbd4f;
+    box-shadow: 0 0 0.5em rgb(255, 226, 99);
     width: 0.8em;
     height: 0.8em;
     position: absolute;

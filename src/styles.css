@@ -146,15 +146,6 @@ body {
 }
 /* MOBILE VIEW */
 @media (max-width:1150px) {
-    .exph-container{
-        font-size:large;
-        padding: 0 45px;
-    }
-    .footerNav ul li {
-        width: 100%;
-        text-align: center;
-        margin: 10px 0;
-    }
     .projects-Pages p{
         padding:0 30px;
         font-size:small;

@@ -17,7 +17,7 @@ footer {
 }
 .social-icons a i {
     font-size: 2rem;
-    color: antiquewhite;
+    color: rgb(255, 242, 183);
     opacity: 0.8;
 }
 .social-icons a:hover {
@@ -36,7 +36,7 @@ footer {
 }
 .footerNav ul a {
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(255, 242, 183);
     margin:0 20px;
     font-size: 15px;
     opacity:0.8;
@@ -50,7 +50,7 @@ footer {
     padding-bottom: 2px;
 }
 .footerEndLine p {
-    color: antiquewhite;
+    color: rgb(255, 242, 183);
     font-size:11px;
 }
 .footerr {

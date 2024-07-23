@@ -1,5 +1,6 @@
 import profile from "./media/web header.jpg";
 import proj from "./media/proj.png";
+import exp from "./media/exp.png";
 import "./styles/home.css";
 import sld1 from "./media/sliders/sliders.png";
 import sld2 from "./media/sliders/sliders1.png";
@@ -143,6 +144,18 @@ function HomePage() {
                 </div>
               </a>
             </p>
+          </li>
+        </ul>
+      </div>
+      <div className="experience-highlights">
+        <ul>
+          <li>
+            <img src={exp}></img>
+          </li>
+          <li>
+            <h3>MY</h3>
+            <h1>Experiences</h1>
+            <h2>Timeline</h2>
           </li>
         </ul>
       </div>

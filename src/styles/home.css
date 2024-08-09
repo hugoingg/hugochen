@@ -238,7 +238,7 @@ blockquote::after {
     height:60px;
 }
 .experience-highlights{
-    background-color: #903D3D;
+    background-color: rgb(30,30,30);
 }
 .experience-highlights li{
     color:rgb(255, 242, 183);

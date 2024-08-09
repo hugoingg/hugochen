@@ -1,6 +1,6 @@
 import profile from "./media/web header.jpg";
 import proj from "./media/proj.png";
-import exp from "./media/exp.png";
+import exp from "./media/exph.png";
 import "./styles/home.css";
 import sld1 from "./media/sliders/sliders.png";
 import sld2 from "./media/sliders/sliders1.png";
@@ -193,9 +193,16 @@ function HomePage() {
           </div>
           <div className="checkpoint">
             <div>
-              <h2>Internship at Nakamura</h2>
-              <h5>July 2024</h5>I went on an internship in Nakamura, one of
-              Indonesia's largest healthcare company.
+              <h2>Web Developer Free Lance at Socielle</h2>
+              <h5>June 2024</h5>I offered to be a free lance website developer
+              for a local restaurant in Solo, Indonesia.
+            </div>
+          </div>
+          <div className="checkpoint">
+            <div>
+              <h2>UI/UX Intern at Nakamura</h2>
+              <h5>July 2024</h5>I went on an internship as a UI/UX designer in
+              Nakamura, one of Indonesia's largest healthcare company.
             </div>
           </div>
         </div>

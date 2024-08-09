@@ -1,6 +1,6 @@
 import profile from "./media/web header.jpg";
 import proj from "./media/proj.png";
-import exp from "./media/exph.png";
+import exp from "./media/catx.png";
 import "./styles/home.css";
 import sld1 from "./media/sliders/sliders.png";
 import sld2 from "./media/sliders/sliders1.png";

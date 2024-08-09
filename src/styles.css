@@ -20,20 +20,21 @@ body {
     flex-wrap: wrap;
     margin-top: 10px;
 }
+.cards-container a{
+    text-decoration: none;
+    color:inherit;
+}
 .card {
     width: 250px;
     background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 15px;
 }
 .card:hover{
     transform:translateY(-10px);
     transition:0.2s;
-}
-.symbols{
-    background-color: white;
 }
 .symbols{
     padding: 10px 0;
@@ -45,53 +46,51 @@ body {
     height:150px;
     object-fit: cover;
 }
-
 .card-content {
     padding: 15px;
     background-color: white;
 }
 .card{
     background-color: white;
+    height:340px;
 }
-
 .card-content h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
-
 .card-content p {
-    color: #343434;
+    color: rgb(30,30,30);
     font-size: 13px;
-    line-height: 1.3;
 }
 
 .card-content .btn-card {
     display: inline-block;
     padding: 8px 16px;
-    background-color: rgb(30, 30, 30);
+    background-color: #6214c7;
     text-decoration: none;
     border-radius: 20px;
-    color: antiquewhite;
+    color: white;
     border:3px solid transparent;
     font-size:13px;
+    margin-top:10px;
 }
 .card-content .btn-card:hover {
-    background-color: antiquewhite;
-    color:rgb(30, 30, 30);
-    border:3px solid rgb(30, 30, 30)
+    background-color: white;
+    color:#6214c7;
+    border:3px solid #6214c7;
 }
 .icons-container-projects{
     margin:0;
     padding:0;
-    color:rgb(20,20,20);
+    color:rgb(30,30,30);
     display:flex;
     gap:0.7rem;
 }
 .icons-container-projects i{
-    font-size:1.6em;
+    font-size:23px;
 }
 .icons-container-projects img{
-    height:25px;
+    height:23px;
     object-fit: cover;
 }
 
@@ -99,7 +98,7 @@ body {
 .experiencesPage {
     margin: 0;
     font-family: sans-serif;
-    color: black;
+    color: rgb(30,30,30);
     padding: 1em;
 }
 

@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .homeHeader {
-    background-image: url(../media/hd-bg.png);
+    background-image: url(../media/gh.png);
     background-position: center 100%;
     background-size: cover;
     padding-top: 15px;
@@ -238,7 +238,7 @@ blockquote::after {
     height:60px;
 }
 .experience-highlights{
-    background-color: rgb(30,30,30);
+    background-color: #6214c7;
 }
 .experience-highlights li{
     color:rgb(255, 242, 183);

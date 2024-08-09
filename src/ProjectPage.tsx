@@ -1,7 +1,7 @@
-import picturePersonalWeb from "./media/personalblog.jpg";
-import picFlowremi from "./media/flowremiCoverPhoto.jpg";
-import picTLDR from "./media/TLDR+.png";
-import picMastermind from "./media/mastermind.jpg";
+import picturePersonalWeb from "./media/LogoSC.png";
+import picFlowremi from "./media/LogoFR.png";
+import picTLDR from "./media/LogoTLDR.png";
+import picMastermind from "./media/LogoMM.png";
 import arduino from "./media/arduino-official.svg";
 import azure from "./media/azure-2.svg";
 import cpp from "./media/c.svg";
@@ -14,7 +14,9 @@ function ProjectPage() {
       </div>
       <div className="cards-container">
         <div className="card">
-          <img src={picturePersonalWeb}></img>
+          <div className="symbols">
+            <img src={picturePersonalWeb} className="symbol"></img>
+          </div>
           <div className="card-content">
             <h3>Blog Website</h3>
             <p>
@@ -34,7 +36,9 @@ function ProjectPage() {
           </div>
         </div>
         <div className="card">
-          <img src={picFlowremi}></img>
+          <div className="symbols">
+            <img src={picFlowremi} className="symbol"></img>
+          </div>
           <div className="card-content">
             <h3>FLOWREMI</h3>
             <p>
@@ -57,7 +61,9 @@ function ProjectPage() {
           </div>
         </div>
         <div className="card">
-          <img src={picMastermind}></img>
+          <div className="symbols">
+            <img src={picMastermind} className="symbol"></img>
+          </div>
           <div className="card-content">
             <h3>MASTERMIND</h3>
             <p>
@@ -74,7 +80,9 @@ function ProjectPage() {
           </div>
         </div>
         <div className="card">
-          <img src={picTLDR}></img>
+          <div className="symbols">
+            <img src={picTLDR} className="symbol"></img>
+          </div>
           <div className="card-content">
             <h3>TLDR+</h3>
             <p>

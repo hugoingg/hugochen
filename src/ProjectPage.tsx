@@ -5,6 +5,9 @@ import picMastermind from "./media/LogoMM.png";
 import arduino from "./media/arduino-official.svg";
 import azure from "./media/azure-2.svg";
 import cpp from "./media/c.svg";
+import LogoUIUX from "./media/LogoUIUX.png";
+import LogoAI from "./media/LogoAI.png";
+import LogoSL from "./media/LogoSL.png";
 function ProjectPage() {
   return (
     <div className="experiencesPage">
@@ -13,6 +16,57 @@ function ProjectPage() {
         <p>Some of My Crafts</p>
       </div>
       <div className="cards-container">
+        <a href="/hugochen/projects/personalWeb">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoUIUX} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Nakamura UI/UX</h3>
+              <p>UI/UX for a Business Landing Page.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-figma"></i>
+              </div>
+              <a href="/hugochen/projects/personalWeb" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
+        <a href="/hugochen/projects/personalWeb">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoAI} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Diagnosis AI</h3>
+              <p>Predictive Diagnosis Model.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/personalWeb" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
+        <a href="/hugochen/projects/personalWeb">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoSL} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Sign to Text</h3>
+              <p>Sign Language Interpreter.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/personalWeb" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
         <a href="/hugochen/projects/personalWeb">
           <div className="card">
             <div className="symbols">

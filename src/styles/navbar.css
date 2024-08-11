@@ -40,7 +40,6 @@
 }
 .Nav-Bar li.active {
     opacity:1;
-    color:red;
 }
 .Nav-Bar li:hover {
     opacity:1;

@@ -13,101 +13,6 @@ body {
 .pagecontainer {
     margin: 0;
 }
-/* PROJECTS PAGE */
-.cards-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-.cards-container a{
-    text-decoration: none;
-    color:inherit;
-}
-.card {
-    width: 250px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    margin: 15px;
-}
-.card:hover{
-    transform:translateY(-10px);
-    transition:0.2s;
-}
-.symbols{
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-}
-.card img {
-    width: auto;
-    height:150px;
-    object-fit: cover;
-}
-.card-content {
-    padding: 15px;
-    background-color: white;
-}
-.card{
-    background-color: white;
-    height:340px;
-}
-.card-content h3 {
-    font-size: 25px;
-    margin: 0;
-}
-.card-content p {
-    color: rgb(30,30,30);
-    font-size: 13px;
-}
-
-.card-content .btn-card {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #6214c7;
-    text-decoration: none;
-    border-radius: 20px;
-    color: white;
-    border:3px solid transparent;
-    font-size:13px;
-    margin-top:10px;
-}
-.card-content .btn-card:hover {
-    background-color: white;
-    color:#6214c7;
-    border:3px solid #6214c7;
-}
-.icons-container-projects{
-    margin:0;
-    padding:0;
-    color:rgb(30,30,30);
-    display:flex;
-    gap:0.7rem;
-}
-.icons-container-projects i{
-    font-size:23px;
-}
-.icons-container-projects img{
-    height:23px;
-    object-fit: cover;
-}
-
-/* EXPERIENCE PAGE */
-.experiencesPage {
-    margin: 0;
-    font-family: sans-serif;
-    color: rgb(30,30,30);
-    padding: 1em;
-}
-
-.experiencePage-title {
-    text-align: center;
-    font-size: 1.4em;
-    color:rgb(20,20,20)
-}
-/*PROJECTS PAGES*/
 .projects-Pages {
     margin: 0;
     font-family: sans-serif;
@@ -120,7 +25,7 @@ body {
     margin-top:45px;
     font-size: 1.4em;
     margin-bottom:60px;
-    color:rgb(20,20,20)
+    color:rgb(20,20,20);
 }
 .projects-Pages p{
     padding:0 105px;

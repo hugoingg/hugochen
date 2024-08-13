@@ -8,12 +8,18 @@ import cpp from "./media/c.svg";
 import LogoUIUX from "./media/LogoUIUX.png";
 import LogoAI from "./media/LogoAI.png";
 import LogoSL from "./media/LogoSL.png";
+import header from "./media/projH.gif";
+import "./styles/projects.css";
 function ProjectPage() {
   return (
     <div className="experiencesPage">
+      <div className="projph">
+        <img src={header}></img>
+      </div>
       <div className="experiencePage-title">
+        <h3>MY</h3>
         <h1>Projects</h1>
-        <p>Some of My Crafts</p>
+        <h2>Personal to Professional</h2>
       </div>
       <div className="cards-container">
         <a href="/hugochen/projects/personalWeb">

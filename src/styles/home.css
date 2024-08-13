@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .homeHeader {
-    background-image: url(../media/gh.png);
+    background-image: url(../media/headerbg.png);
     background-position: center 100%;
     background-size: cover;
     padding-top: 15px;
@@ -431,6 +431,9 @@ blockquote::after {
     .formatter li img{
         padding-top:30px;
         width:250px;
+    }
+    .experience-highlights li img{
+        width: 250px;
     }
     .timeline {
         width: 80vw;

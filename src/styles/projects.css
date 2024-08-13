@@ -1,0 +1,166 @@
+.projph img{
+    width:100%;
+    height:300px;
+}
+.experiencePage-title {
+    text-align: left;
+    font-size: 1.6em;
+    color:rgb(255, 242, 183);
+    position:absolute;
+    top:50px;
+    left:25vw;
+    line-height:25px;
+}
+.experiencePage-title h3{
+    font-weight: lighter;
+    font-size:0.7em;
+}
+.experiencePage-title h2{
+    font-weight: lighter;
+    font-size:0.8em;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:30px 0;
+}
+.cards-container a{
+    text-decoration: none;
+    color:inherit;
+}
+.card {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+}
+.card:hover{
+    transform:translateY(-10px);
+    transition:0.2s;
+}
+.symbols{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.card img {
+    width: auto;
+    height:150px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 15px;
+    background-color: white;
+}
+.card{
+    background-color: white;
+    height:340px;
+}
+.card-content h3 {
+    font-size: 25px;
+    margin: 0;
+}
+.card-content p {
+    color: rgb(30,30,30);
+    font-size: 13px;
+}
+.card-content .btn-card {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #6214c7;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    border:3px solid transparent;
+    font-size:13px;
+    margin-top:10px;
+}
+.card-content .btn-card:hover {
+    background-color: white;
+    color:#6214c7;
+    border:3px solid #6214c7;
+}
+.icons-container-projects{
+    color:rgb(30,30,30);
+    display:flex;
+    gap:0.7rem;
+}
+.icons-container-projects i{
+    font-size:23px;
+}
+.icons-container-projects img{
+    height:23px;
+    object-fit: cover;
+}
+
+@media (max-width:1150px) {
+    .projph img{
+        width:100%;
+        height:280px;
+        object-fit: cover;
+        object-position: -100px 0;
+    }
+    .experiencesPage{
+        justify-content: center;
+    }
+    .experiencePage-title {
+        text-align: center;
+        font-size: 1.4em;
+        line-height:20px;
+        width:100%;
+        left:0;
+    }
+    .experiencePage-title h3{
+        font-size:0.5em;
+    }
+    .experiencePage-title h2{
+        font-size:0.7em;
+    }
+    .symbols{
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .card img {
+        height:120px;
+    }
+    .card-content {
+        padding: 10px;
+    }
+    .card{
+        height:300px;
+    }
+    .card-content h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+    .card-content p {
+        color: rgb(30,30,30);
+        font-size: 12px;
+    }
+    .card-content .btn-card {
+        padding: 7px 15px;
+        font-size:12px;
+        margin-top:8px;
+    }
+    .card-content .btn-card:hover {
+        background-color: white;
+        color:#6214c7;
+        border:3px solid #6214c7;
+    }
+    .icons-container-projects{
+        color:rgb(30,30,30);
+        display:flex;
+        gap:0.4rem;
+    }
+    .icons-container-projects i{
+        font-size:20px;
+    }
+    .icons-container-projects img{
+        height:20px;
+        object-fit: cover;
+    }
+}

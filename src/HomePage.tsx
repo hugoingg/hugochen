@@ -13,7 +13,7 @@ import sld7 from "./media/sliders/sliders6.png";
 function HomePage() {
   return (
     <div className="wrapper">
-      <div className="homeHeader-container" id="top">
+      <div className="homeHeader-container">
         <div className="homeHeader">
           <div className="header-text">
             <div className="profile-container">
@@ -193,7 +193,7 @@ function HomePage() {
           </div>
           <div className="checkpoint">
             <div>
-              <h2>Web Developer Free Lance at Socielle</h2>
+              <h2>Web Developer at Socielle</h2>
               <h5>June 2024</h5>I offered to be a free lance website developer
               for a local restaurant in Solo, Indonesia.
             </div>

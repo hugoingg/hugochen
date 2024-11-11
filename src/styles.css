@@ -29,7 +29,7 @@ body {
 }
 .projects-Pages-content p{
     padding:0 105px;
-    text-indent: 5%;
+    text-indent: 4%;
 }
 .projects-Pages-content p::first-letter{
     font-size: 2rem;

@@ -27,8 +27,9 @@ body {
     margin-bottom:60px;
     color:rgb(20,20,20);
 }
-.projects-Pages p{
+.projects-Pages-content p{
     padding:0 105px;
+    text-indent: 5%;
 }
 .projects-Pages-content p::first-letter{
     font-size: 2rem;

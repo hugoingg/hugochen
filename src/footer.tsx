@@ -22,10 +22,7 @@ function PageFooter() {
           <div className="footerNav">
             <ul>
               <li>
-                <a href="/hugochen/">Profile</a>
-              </li>
-              <li>
-                <a href="/hugochen/projects">Projects</a>
+                <a href="/hugochen/">Home</a>
               </li>
             </ul>
           </div>

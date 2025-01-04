@@ -1,23 +1,17 @@
-import photo1 from "../media/mm-pics/mm1.jpg";
-import photo2 from "../media/mm-pics/mm2.jpg";
-import photo3 from "../media/mm-pics/mm3.jpg";
-import photo4 from "../media/mm-pics/mm4.jpg";
-import video from "../media/mm-pics/mmvideo.mp4";
-
-function Mastermind() {
+function Nakamura() {
   return (
     <div className="projects-Pages">
       <div className="projects-Pages-title">
-        <h1>MASTERMIND</h1>
-        <p>November - December 2023</p>
+        <h1>Nakamura</h1>
+        <p>July- September 2024</p>
       </div>
       <div className="projects-Pages-content">
         <p>
           This game was a school assignment project that I did with my group.
           The challenge was to make a game using only Python and its standard
           libraries. We have decided to make the game based of the classic
-          Mastermind game, something that we have never yet encountered in the
-          digital space.
+          Mastermind game, something that we have never yet encountered
+          digitally.
         </p>
         <div className="projects-Pages-content">
           <p>
@@ -44,12 +38,9 @@ function Mastermind() {
             number of attempt that we set was 8.
           </p>
         </div>
-        <div className="project-Pages-Photos-Container">
-          <video src={video} controls></video>
-        </div>
       </div>
     </div>
   );
 }
 
-export default Mastermind;
+export default Nakamura;

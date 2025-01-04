@@ -1,6 +1,4 @@
 import profile from "./media/web header.jpg";
-import proj from "./media/proj.png";
-import exp from "./media/catx.png";
 import "./styles/home.css";
 import sld1 from "./media/sliders/sliders.png";
 import sld2 from "./media/sliders/sliders1.png";
@@ -9,6 +7,18 @@ import sld4 from "./media/sliders/sliders3.png";
 import sld5 from "./media/sliders/sliders4.png";
 import sld6 from "./media/sliders/sliders5.png";
 import sld7 from "./media/sliders/sliders6.png";
+import picturePersonalWeb from "./media/LogoSC.png";
+import picFlowremi from "./media/LogoFR.png";
+import picTLDR from "./media/LogoTLDR.png";
+import picMastermind from "./media/LogoMM.png";
+import arduino from "./media/arduino-official.svg";
+import azure from "./media/azure-2.svg";
+import cpp from "./media/c.svg";
+import LogoUIUX from "./media/LogoUIUX.png";
+import LogoAI from "./media/LogoAI.png";
+import LogoSL from "./media/LogoSL.png";
+import openai from "./media/OpenAI.png";
+import LogoCompai from "./media/LogoCompai.png";
 
 function HomePage() {
   return (
@@ -46,8 +56,8 @@ function HomePage() {
           Welcome to my blog! I am Hugo, a Computer Science undergraduate in
           Singapore University of Technology of Design (SUTD). I have a strong
           passion in building systems, such as softwares and hardwares, using my
-          knowledge and technologies. My projects and experiences are displayed
-          in this website. Feel free to take a look!
+          knowledge and technologies. My projects are displayed in this website.
+          Feel free to take a look!
         </p>
       </div>
       <div className="slider-body">
@@ -126,86 +136,160 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="project-highlights">
-        <ul className="formatter">
-          <li>
-            <img src={proj} alt="" />
-          </li>
-          <li>
-            <p>
-              <h3 className="technical">TECHNICAL</h3>
-              <h1>Projects</h1>
-              <h2>From personal to professional works.</h2>
-              <div className="gap"></div>
-              <a href="/hugochen/projects">
-                <div className="see-projects">
-                  <h3>See Projects</h3>
-                  <span className="arrow"> &#129170;</span>
+      <div className="projects-header">
+        <h2>Projects</h2>
+      </div>
+      <div className="cards-container">
+        <a href="/hugochen/CompleterAI">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoCompai} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Completer AI</h3>
+              <p>Autocompleter Browser Extension</p>
+              <div className="icons-container-projects">
+                <div className="custom-icon">
+                  <img src={openai}></img>
+                  <i className="fa-brands "></i>
                 </div>
+              </div>
+              <a href="/hugochen/CompleterAI" className="btn-card">
+                Read More
               </a>
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div className="experience-highlights">
-        <ul>
-          <li>
-            <img src={exp}></img>
-          </li>
-          <li>
-            <h3>MY</h3>
-            <h1>Experiences</h1>
-            <h2>Timeline</h2>
-          </li>
-        </ul>
-      </div>
-      <div className="timeline-container">
-        <div className="timeline">
-          <div className="checkpoint">
-            <div>
-              <h2>Awardee of ASEAN Scholarship</h2>
-              <h5>Jul 2023</h5>I was awarded the ASEAN Undergraduate Scholarship
-              to study in Singapore University of Technology and Design (SUTD).
             </div>
           </div>
-          <div className="checkpoint">
-            <div>
-              <h2>Teacher at Local Tuition Centre</h2>
-              <h5>May 2023 - Aug 2023</h5>I taught high school students in my
-              hometown of Solo, Indonesia. The tuition centre was locally known
-              as "Les-lesan Ci Fani".
+        </a>
+        <a href="/hugochen/projects/Nakamura">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoUIUX} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Nakamura UI/UX</h3>
+              <p>UI/UX for a Business Landing Page.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-figma"></i>
+              </div>
+              <a href="/hugochen/projects/Nakamura" className="btn-card">
+                Read More
+              </a>
             </div>
           </div>
-          <div className="checkpoint">
-            <div>
-              <h2>Member of Google Student Developer Club</h2>
-              <h5>Oct 2023 - Oct 2024</h5>I was part of the website team of the
-              club.
+        </a>
+        <a href="/hugochen/projects/DiagnoseAI">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoAI} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Diagnose AI</h3>
+              <p>Predictive Diagnosis Model.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/DiagnoseAI" className="btn-card">
+                Read More
+              </a>
             </div>
           </div>
-          <div className="checkpoint">
-            <div>
-              <h2>President of PADI</h2>
-              <h5>Mar 2024 - Mar 2025</h5>I was president of PADI, a community
-              of Indonesian students in SUTD. This organization is part of the
-              community of Indonesian students in Singapore, PPIS.
+        </a>
+        <a href="/hugochen/projects/Sign2Speech">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoSL} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Sign to Text</h3>
+              <p>Sign Language Interpreter.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/Sign2Speech" className="btn-card">
+                Read More
+              </a>
             </div>
           </div>
-          <div className="checkpoint">
-            <div>
-              <h2>Web Developer at Socielle</h2>
-              <h5>June 2024</h5>I offered to be a free lance website developer
-              for a local restaurant in Solo, Indonesia.
+        </a>
+        <a href="/hugochen/projects/Socielle">
+          <div className="card">
+            <div className="symbols">
+              <img src={picturePersonalWeb} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>s.id/SOCIELLE</h3>
+              <p>Restaurant Landing Page.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-react"></i>
+                <i className="fa-brands fa-html5"></i>
+                <i className="fa-brands fa-css3-alt"></i>
+              </div>
+              <a href="/hugochen/projects/Socielle" className="btn-card">
+                Read More
+              </a>
             </div>
           </div>
-          <div className="checkpoint">
-            <div>
-              <h2>UI/UX Intern at Nakamura</h2>
-              <h5>July 2024</h5>I went on an internship as a UI/UX designer in
-              Nakamura, one of Indonesia's largest healthcare company.
+        </a>
+        <a href="/hugochen/projects/Flowremi">
+          <div className="card">
+            <div className="symbols">
+              <img src={picFlowremi} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>FLOWREMI</h3>
+              <p>From Music to Light.</p>
+              <div className="icons-container-projects">
+                <div className="custom-icon">
+                  <img src={cpp}></img>
+                </div>
+                <div className="custom-icon">
+                  <img src={arduino}></img>
+                </div>
+              </div>
+              <a href="/hugochen/projects/Flowremi" className="btn-card">
+                Read More
+              </a>
             </div>
           </div>
-        </div>
+        </a>
+        <a href="/hugochen/projects/Mastermind">
+          <div className="card">
+            <div className="symbols">
+              <img src={picMastermind} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>MASTERMIND</h3>
+              <p>Classic Game in Digital.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/Mastermind" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
+        <a href="/hugochen/projects/TldrPlus">
+          <div className="card">
+            <div className="symbols">
+              <img src={picTLDR} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>TLDR+</h3>
+              <p>Summarizer Telegram Bot.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-telegram"></i>
+                <i className="fa-brands fa-python"></i>
+                <div className="custom-icon">
+                  <img src={azure}></img>
+                </div>
+              </div>
+              <a href="/hugochen/projects/TldrPlus" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );

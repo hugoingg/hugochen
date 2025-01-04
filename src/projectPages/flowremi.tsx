@@ -23,11 +23,12 @@ function Flowremi() {
         <div className="projects-Pages-content">
           <p>
             Our workflow started out by doing a site analysis on where our
-            product will be deployed, which is the Campus Centre. We analyzed
-            the movement of crowd during different times of the day, the light
-            and noise variations of the site, as well as physical dimensions of
-            items on the site. Afterwards, we utilize the data that we collected
-            to design our product. We then proceed to make the product.
+            product will be deployed, which is the SUTD Campus Centre. We
+            analyzed the movement of crowd during different times of the day,
+            the light and noise variations of the site, as well as physical
+            dimensions of items on the site. Afterwards, we utilize the data
+            that we collected to design our product. We then proceed to make the
+            product.
           </p>
           <p>
             My delegation of task for Flowremi was on the electronics. We used

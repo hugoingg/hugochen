@@ -6,18 +6,17 @@ import PersonalWeb from "./projectPages/personalWebsite";
 import TldrPlus from "./projectPages/TLDRplus";
 import Mastermind from "./projectPages/mastermind";
 import Flowremi from "./projectPages/flowremi";
+import CompleterAI from "./projectPages/completerai";
+import DiagnoseAI from "./projectPages/diagnoseai";
+import Sign2Speech from "./projectPages/sign2speech";
+import Nakamura from "./projectPages/nakamura";
 import { Outlet } from "react-router-dom";
+
 function App() {
   let component;
   switch (window.location.pathname) {
     case "/hugochen/":
       component = <HomePage />;
-      break;
-    case "/hugochen/projects":
-      component = <ProjectPage />;
-      break;
-    case "/hugochen/projects/personalWeb":
-      component = <PersonalWeb />;
       break;
     case "/hugochen/projects/TldrPlus":
       component = <TldrPlus />;
@@ -25,13 +24,25 @@ function App() {
     case "/hugochen/projects/Mastermind":
       component = <Mastermind />;
       break;
-    case "/hugochen/projects/Flowremi":
+    case "/hugochen/CompleterAI/":
+      component = <CompleterAI />;
+      break;
+    case "/hugochen/projects/Nakamura":
+      component = <Nakamura />;
+      break;
+    case "/hugochen/projects/Sign2Speech":
+      component = <Sign2Speech />;
+      break;
+    case "/hugochen/projects/DiagnoseAI":
+      component = <DiagnoseAI />;
+      break;
+    case "/hugochen/projects/Socielle":
       component = <Flowremi />;
       break;
   }
   return (
     <>
-      <NavBar />
+      {/* <NavBar />*/}
       <div className="pagecontainer">
         <Outlet />
       </div>

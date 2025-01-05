@@ -28,21 +28,26 @@ function Mastermind() {
             When both our iterators stand on the same color, it shows that the
             color exist on both arrays on the same index, which means it
             deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            color from both arrays, reducing their sizes.
           </p>
+          <div className="projects-Pages-content">
+            <p>
+              After we check for red hints, we continue to do the same for white
+              hints, that mean "right color wrong place". We iterate only
+              through the input answer, and for each one, we compare the number
+              of times a color appears on both the input answer and the key
+              answer arrays. We then take the smallest number of each comparison
+              as the result, and return equal number of white hints to that
+              result. The winning condition is met once our program reduces the
+              input array to have no element, which means that every element was
+              popped during the red hints check, meaning that the input answer
+              have "all the right color in the right places", thus it matches
+              the key answer. When this happens, the game ends with the player
+              winning. On the other hand, once the player had given 8 attempts
+              and did not win, they will lose as the maximum number of attempt
+              that we set was 8.
+            </p>
+          </div>
         </div>
         <div className="project-Pages-Photos-Container">
           <video src={video} controls></video>

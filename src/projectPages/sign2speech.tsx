@@ -1,3 +1,5 @@
+import s2s1 from "../media/sliders/sliders2.png";
+
 function Sign2Speech() {
   return (
     <div className="projects-Pages">
@@ -7,36 +9,26 @@ function Sign2Speech() {
       </div>
       <div className="projects-Pages-content">
         <p>
-          This game was a school assignment project that I did with my group.
-          The challenge was to make a game using only Python and its standard
-          libraries. We have decided to make the game based of the classic
-          Mastermind game, something that we have never yet encountered
-          digitally.
+          This was one of the personal projects I did during my university
+          summer break. My aim in this project was to build an AI model that can
+          convert sign language to speech using computer vision. I used
+          MediaPipe and OpenCV to track movements caught on camera, and store
+          them as pictures for training the converter AI model. I then proceeded
+          to train the AI model using the collected data, using LSTM in
+          Tensorflow. The model was trained to understand 3 phrases: "hello", "i
+          love you", and "thank you".
         </p>
         <div className="projects-Pages-content">
           <p>
-            The logic and pseudocode of the game are as follows. After receiving
-            input, we first check for red hints, which mean "right color right
-            place". We do this by iterating through the randomly generated
-            answer and the received input attempt as arrays, simultaneously.
-            When both our iterators stand on the same color, it shows that the
-            color exist on both arrays on the same index, which means it
-            deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            As the final layer of the LSTM has a Softmax activation function,
+            the classifier works by computing 3 probability values and finding
+            the maximum one to be the output classification. I then programmed
+            these 3 values to be visualized on the OpenCV screen, using NumPy
+            and pyplot form matplotlib.
           </p>
+        </div>
+        <div className="project-Pages-Photos-ContainerL">
+          <img src={s2s1}></img>
         </div>
       </div>
     </div>

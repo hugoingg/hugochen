@@ -1,42 +1,41 @@
+import dai1 from "../media/diagnoseai-pics/dai1.png";
+
 function DiagnoseAI() {
   return (
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>DiagnoseAI</h1>
-        <p>May - June 2024 </p>
+        <p>May 2024 - Present </p>
       </div>
       <div className="projects-Pages-content">
         <p>
-          This game was a school assignment project that I did with my group.
-          The challenge was to make a game using only Python and its standard
-          libraries. We have decided to make the game based of the classic
-          Mastermind game, something that we have never yet encountered
-          digitally.
+          This is a personal project that I did during my summer break in
+          university. I started by training 3 classifier AI models using
+          Scikit-learn in Python, one to diagnose each disease: diabetes,
+          Parkinson's, and breast cancer. The models achieved a high accuracy
+          without complex pre-processing as the training data sets were already
+          clean and had plenty data points. The training data were sourced from
+          the internet. I proceeded to prototype a web application to deploy the
+          models online using Streamlit.
         </p>
         <div className="projects-Pages-content">
           <p>
-            The logic and pseudocode of the game are as follows. After receiving
-            input, we first check for red hints, which mean "right color right
-            place". We do this by iterating through the randomly generated
-            answer and the received input attempt as arrays, simultaneously.
-            When both our iterators stand on the same color, it shows that the
-            color exist on both arrays on the same index, which means it
-            deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            Possible improvements for this project includes building a more
+            sophisticated UI customized using Flask or Django. Another example
+            would be to enhance the model's accuracy. I attempted this by
+            rebuilding the breast cancer model using deep learning with PyTorch
+            and Tensorflow, and succeeded, though the new model has not been
+            added to the web app. I am also planning to add a feature to print
+            medical report based on the conducted diagnosis. As of now, I am
+            putting this project on hold as I have other respoonsibilites in
+            university. The repository for this project is available publicly{" "}
+            <a href="https://github.com/hugoingg/diagnose-AI.">here,</a> while
+            the deployed prototype can be accessed{" "}
+            <a href="https://diagnose--ai.streamlit.app/">here.</a>
           </p>
+        </div>
+        <div className="project-Pages-Photos-ContainerL">
+          <img src={dai1}></img>
         </div>
       </div>
     </div>

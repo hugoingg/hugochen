@@ -3,39 +3,33 @@ function Nakamura() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>Nakamura</h1>
-        <p>July- September 2024</p>
+        <p>July - September 2024</p>
       </div>
       <div className="projects-Pages-content">
         <p>
-          This game was a school assignment project that I did with my group.
-          The challenge was to make a game using only Python and its standard
-          libraries. We have decided to make the game based of the classic
-          Mastermind game, something that we have never yet encountered
-          digitally.
+          This was my first internship project with a health service company,
+          Nakamura Holistic Therapy. It was a 4 months long, hybrid internship,
+          though most of my workings was done remotely. My job was to redesign
+          the business's landing website to have a more sophisticated UI and UX.
+          I was tasked to use Figma, and in particular, the Web-To-Figma
+          extension for me to take inspirations from existing modern websites.
+          Throughout my time, I drew inspirations from websites of big companies
+          such as Anaconda, Samsung, Iphone, Adobe, etc. I also made the
+          graphics used on the design, using Canva, MediBang Paint, and by
+          freely importing from the internet.
         </p>
         <div className="projects-Pages-content">
           <p>
-            The logic and pseudocode of the game are as follows. After receiving
-            input, we first check for red hints, which mean "right color right
-            place". We do this by iterating through the randomly generated
-            answer and the received input attempt as arrays, simultaneously.
-            When both our iterators stand on the same color, it shows that the
-            color exist on both arrays on the same index, which means it
-            deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            By the time I finished my internship, the designing tasks delegated
+            to me was fully finished on Figma, but those on my peer's end was
+            not. Thus, unfortunately, my design has not been implemented to the
+            existing website. For that reason as well, I may not post pictures
+            showing the new design in this blog yet. I do have the offer to get
+            back on to this project, while it is unfinished. I plan to do so as
+            I am aware this website has a huge traffic and it is a significant
+            aspect of the company. Therefore, I wish to learn first-hand how
+            major changes can be applied without causing drawbacks during the
+            possible down time.
           </p>
         </div>
       </div>

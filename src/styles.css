@@ -30,12 +30,18 @@ body {
 .projects-Pages-content p{
     padding:0 105px;
     text-indent: 4%;
+    font-size: 20px;
 }
+
+.project-Pages-content p a{
+    text-decoration: None;
+}
+
 .projects-Pages-content p::first-letter{
     font-size: 2rem;
     color: red;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 .project-Pages-Photos-Container{
     padding: 0 105px;
@@ -46,6 +52,15 @@ body {
     margin: 70px 20px;
     max-width: 400px;
 }
+.project-Pages-Photos-ContainerL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-Pages-Photos-ContainerL img{
+    height:400px;
+    margin: 70px 20px;
+}
 .project-Pages-Photos-Container video{
     height:300px;
     width:100%;
@@ -55,7 +70,7 @@ body {
 @media (max-width:1150px) {
     .projects-Pages p{
         padding:0 30px;
-        font-size:small;
+        font-size:17px;
     }
     .project-Pages-Photos-Container{
         padding: 0;
@@ -66,5 +81,9 @@ body {
     .project-Pages-Photos-Container img{
         width: 20vw;
         height: auto;
+    }
+    .project-Pages-Photos-ContainerL img{
+        width: auto;
+        height: 210px;
     }
 }

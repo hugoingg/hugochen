@@ -1,3 +1,5 @@
+import cai1 from "../media/completerai-pics/cai1.png";
+
 function CompleterAI() {
   return (
     <div className="projects-Pages">
@@ -7,42 +9,34 @@ function CompleterAI() {
       </div>
       <div className="projects-Pages-content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum beatae
-          eligendi quis. Ipsam tempora, expedita error quisquam atque unde
-          pariatur ullam. Hic itaque reiciendis quaerat facere unde error rerum
-          blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Fuga, dolores? Nesciunt consequatur veniam, iure beatae, deleniti
-          error est earum deserunt expedita corrupti labore aut quas distinctio
-          harum aperiam, laudantium architecto! Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Numquam esse at, praesentium labore, a
-          necessitatibus magni voluptatem doloribus tempora corporis quisquam
-          illo consequuntur! Voluptatibus voluptatem voluptas maxime, illum nemo
-          provident?
+          This project is a collaboration work between me and my senior. It aims
+          to create a browser extension that may help users draft social media
+          responses, such as replies in X.com or email exchange in workplaces.
+          We used OpenAI API to perform calls on Large Language Models (LLM) to
+          generate our auto-completion. As of now, we specifically use GPT
+          4o-mini. As for the DOM manipulation to apply the suggestion on to the
+          input field, we used Typescript.
         </p>
+        <div className="project-Pages-content">
+          <p>
+            CompleterAI's main feature is that it can read contexts of which the
+            user is replying to. For instance, when the user is writing to reply
+            a Tweet, the DOM manipulator will extract the Tweet content and
+            incorporate it on to the LLM call as part of the prompt. Thus, the
+            auto-completion suggestion is relevant to the user's context. To
+            accomodate for this feature, we design our DOM manipulator to work
+            differently for various use cases.
+          </p>
+        </div>
         <div className="projects-Pages-content">
           <p>
-            The logic and pseudocode of the game are as follows. After receiving
-            input, we first check for red hints, which mean "right color right
-            place". We do this by iterating through the randomly generated
-            answer and the received input attempt as arrays, simultaneously.
-            When both our iterators stand on the same color, it shows that the
-            color exist on both arrays on the same index, which means it
-            deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            This project is still on going and it is not yet deployed. It also
+            has many rooms for improvements. One of which is to create more
+            rooms for its usage, that is, more websites that it can run on.
           </p>
+        </div>
+        <div className="project-Pages-Photos-ContainerL">
+          <img src={cai1}></img>
         </div>
       </div>
     </div>

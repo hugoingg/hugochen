@@ -14,6 +14,7 @@ import DiagnoseAI from "./projectPages/diagnoseai";
 import Nakamura from "./projectPages/nakamura";
 import Sign2Speech from "./projectPages/sign2speech";
 import Socielle from "./projectPages/socielle";
+import Soil from "./projectPages/soil";
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
       {
         path: "/hugochen/projects/Socielle",
         element: <Socielle />,
+      },
+      {
+        path: "/hugochen/projects/Soil",
+        element: <Soil />,
       },
     ],
   },

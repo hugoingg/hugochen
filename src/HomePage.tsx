@@ -18,6 +18,7 @@ import LogoUIUX from "./media/LogoUIUX.png";
 import LogoAI from "./media/LogoAI.png";
 import LogoSL from "./media/LogoSL.png";
 import openai from "./media/OpenAI.png";
+import LogoSoil from "./media/LogoSoil.png";
 import LogoCompai from "./media/LogoCompai.png";
 
 function HomePage() {
@@ -189,6 +190,23 @@ function HomePage() {
                 <i className="fa-brands fa-python"></i>
               </div>
               <a href="/hugochen/projects/DiagnoseAI" className="btn-card">
+                Read More
+              </a>
+            </div>
+          </div>
+        </a>
+        <a href="/hugochen/projects/Soil">
+          <div className="card">
+            <div className="symbols">
+              <img src={LogoSoil} className="symbol"></img>
+            </div>
+            <div className="card-content">
+              <h3>Soil :)</h3>
+              <p>AI to Predict Rice Farming Emission.</p>
+              <div className="icons-container-projects">
+                <i className="fa-brands fa-python"></i>
+              </div>
+              <a href="/hugochen/projects/Soil" className="btn-card">
                 Read More
               </a>
             </div>

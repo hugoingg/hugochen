@@ -7,35 +7,26 @@ function Socielle() {
       </div>
       <div className="projects-Pages-content">
         <p>
-          This game was a school assignment project that I did with my group.
-          The challenge was to make a game using only Python and its standard
-          libraries. We have decided to make the game based of the classic
-          Mastermind game, something that we have never yet encountered
-          digitally.
+          This was my first free-lance project for a growing restaurant startup
+          in my hometown called Socielle. As this was my first time working with
+          a client, specifically one that is not from technology nor design
+          background, I was caught by some surprises. A major one was their
+          preference in the website's interface. I also had to work with very
+          limited media assets. In the end, I designed it according to their
+          preference, and deployed it using Github pages.
         </p>
         <div className="projects-Pages-content">
           <p>
-            The logic and pseudocode of the game are as follows. After receiving
-            input, we first check for red hints, which mean "right color right
-            place". We do this by iterating through the randomly generated
-            answer and the received input attempt as arrays, simultaneously.
-            When both our iterators stand on the same color, it shows that the
-            color exist on both arrays on the same index, which means it
-            deserves a red hint. Once this condition is met, we would pop the
-            color from both arrays, reducing their sizes. After we check for red
-            hints, we continue to do the same for white hints, that mean "right
-            color wrong place". We iterate only through the input answer, and
-            for each one, we compare the number of times a color appears on both
-            the input answer and the key answer arrays. We then take the
-            smallest number of each comparison as the result, and return equal
-            number of white hints to that result. The winning condition is met
-            once our program reduces the input array to have no element, which
-            means that every element was popped during the red hints check,
-            meaning that the input answer have "all the right color in the right
-            places", thus it matches the key answer. When this happens, the game
-            ends with the player winning. On the other hand, once the player had
-            given 8 attempts and did not win, they will lose as the maximum
-            number of attempt that we set was 8.
+            The website was created using React with a Typescript base language
+            and Vite. It has minimal back-end properties and can be found{" "}
+            <a href="https://hugoingg.github.io/socielle/">here.</a> The views
+            are styled using simple CSS. Improvements to the website includes a
+            booking system that is linked to the business's Whatsapp through
+            API, as it is the only way to reserve tables on the restaurant.
+            Another one is to have the website constantly updated with seasonal
+            menu, promotional offers, etc. Unfortunately, there was no one in
+            the business that could take up this role, thus the website is
+            static and currently outdated.
           </p>
         </div>
       </div>

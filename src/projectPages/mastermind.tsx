@@ -9,6 +9,9 @@ function Mastermind() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>MASTERMIND</h1>
+        <i>
+          <h5>Python</h5>
+        </i>
         <p>November - December 2023</p>
       </div>
       <div className="projects-Pages-content">

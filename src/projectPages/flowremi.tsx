@@ -8,6 +8,9 @@ function Flowremi() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>FLOWREMI</h1>
+        <i>
+          <h5>Arduino, C++</h5>
+        </i>
         <p>January - April 2024</p>
       </div>
       <div className="projects-Pages-content">

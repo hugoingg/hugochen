@@ -2,7 +2,10 @@ function Nakamura() {
   return (
     <div className="projects-Pages">
       <div className="projects-Pages-title">
-        <h1>Nakamura</h1>
+        <h1>Nakamura Landing Page</h1>
+        <i>
+          <h5>Figma, Canva</h5>
+        </i>
         <p>July - September 2024</p>
       </div>
       <div className="projects-Pages-content">

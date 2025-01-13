@@ -1,8 +1,13 @@
+import s1 from "../media/socielle-pics/s1.png";
+
 function Socielle() {
   return (
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>Socielle</h1>
+        <i>
+          <h5>React, Typescript</h5>
+        </i>
         <p>May - June 2024</p>
       </div>
       <div className="projects-Pages-content">
@@ -28,6 +33,9 @@ function Socielle() {
             the business that could take up this role, thus the website is
             static and currently outdated.
           </p>
+        </div>
+        <div className="project-Pages-Photos-ContainerL">
+          <img src={s1}></img>
         </div>
       </div>
     </div>

@@ -5,6 +5,9 @@ function Soil() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>Soil :)</h1>
+        <i>
+          <h5>Flask, Excel, Scikit-learn, NumPy, Pandas</h5>
+        </i>
         <p>October - December 2024</p>
       </div>
       <div className="projects-Pages-content">

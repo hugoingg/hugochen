@@ -8,6 +8,9 @@ function TldrPlus() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>TLDR+</h1>
+        <i>
+          <h5>Telegram API, Azure Functions, Python</h5>
+        </i>
         <p>May 2024</p>
       </div>
       <div className="projects-Pages-content">

@@ -31,7 +31,7 @@ function HomePage() {
               <img src={profile} className="profile-image" alt=""></img>
             </div>
             <h1>HUGO CHEN</h1>
-            <h2>Computer Science</h2>
+            <h2>Software & AI Engineer</h2>
           </div>
           <div className="mycontacts-icons">
             <a href="https://www.instagram.com/hugochen._?igsh=MTMxaG1hanpxNnVmbA== ">

@@ -1,10 +1,14 @@
 import cai1 from "../media/completerai-pics/cai1.png";
+import cai2 from "../media/completerai-pics/cai2.png";
 
 function CompleterAI() {
   return (
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>CompleterAI</h1>
+        <i>
+          <h5>OpenAI, Typescript</h5>
+        </i>
         <p>September 2024 - Present</p>
       </div>
       <div className="projects-Pages-content">
@@ -37,6 +41,9 @@ function CompleterAI() {
         </div>
         <div className="project-Pages-Photos-ContainerL">
           <img src={cai1}></img>
+        </div>
+        <div className="project-Pages-Photos-ContainerL">
+          <img src={cai2}></img>
         </div>
       </div>
     </div>

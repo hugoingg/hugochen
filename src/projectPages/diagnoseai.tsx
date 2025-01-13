@@ -5,6 +5,9 @@ function DiagnoseAI() {
     <div className="projects-Pages">
       <div className="projects-Pages-title">
         <h1>DiagnoseAI</h1>
+        <i>
+          <h5>Streamlit, Tensorflow, Skicit-learn, NumPy</h5>
+        </i>
         <p>May 2024 - Present </p>
       </div>
       <div className="projects-Pages-content">

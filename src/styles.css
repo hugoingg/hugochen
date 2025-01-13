@@ -27,6 +27,16 @@ body {
     margin-bottom:60px;
     color:rgb(20,20,20);
 }
+.projects-Pages-title h1{
+    margin:0;
+    padding:0;
+}
+.projects-Pages-title h5{
+    margin:20px;
+    padding:0;
+    color:rgb(80,80,80);
+    font-weight: lighter;
+}
 .projects-Pages-content p{
     padding:0 105px;
     text-indent: 4%;

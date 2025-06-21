@@ -18,9 +18,9 @@ function Sign2Speech() {
           this point, I only made the software convert from sign language to
           text. I used MediaPipe and OpenCV to track movements caught on camera,
           and store them as pictures for training the converter AI model. I then
-          proceeded to train the AI model using the collected data, using LSTM
-          in Tensorflow. The model was trained to understand 3 phrases: "hello",
-          "i love you", and "thank you".
+          proceeded to train the Long Short Term Memory (LSTM) model using the
+          collected data, using Tensorflow. The model was trained to understand
+          3 phrases: "hello", "i love you", and "thank you".
         </p>
         <div className="projects-Pages-content">
           <p>
@@ -28,9 +28,11 @@ function Sign2Speech() {
             the classifier works by computing 3 probability values and finding
             the maximum one to be the output classification. I then programmed
             these 3 values to be visualized on the OpenCV screen, using NumPy
-            and pyplot form matplotlib. In the future, I plan to incorporate a
-            reader that can convert the text generated into speech. I also plan
-            to add more grammar for the AI to process.
+            and pyplot form matplotlib (the color bars behind each phrase
+            represents the likelihood of that phrase being signed). In the
+            future, I plan to incorporate a reader that can convert the text
+            generated into speech. I also plan to add more grammar for the AI to
+            process.
           </p>
         </div>
         <div className="project-Pages-Photos-ContainerL">

@@ -24,6 +24,8 @@
     justify-content: center;
     flex-wrap: wrap;
     margin:30px 0;
+    padding: 0 90px;
+    padding-bottom: 50px;
 }
 .cards-container a{
     text-decoration: none;
@@ -32,7 +34,7 @@
 .card {
     width: 250px;
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     margin: 15px;
@@ -57,43 +59,50 @@
 }
 .card{
     background-color: white;
-    height:340px;
+    height:325px;
 }
 .card-content h3 {
     font-size: 25px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 .card-content p {
     color: rgb(30,30,30);
     font-size: 13px;
+    margin: 7px 0;
+    justify-content: center;
+    display:flex;
 }
 .card-content .btn-card {
-    display: inline-block;
+    display: flex;
     padding: 8px 16px;
-    background-color: #6214c7;
+    background-color: rgb(30,30,30);
     text-decoration: none;
     border-radius: 20px;
     color: white;
     border:3px solid transparent;
     font-size:13px;
     margin-top:10px;
+    justify-content: center;
 }
 .card-content .btn-card:hover {
     background-color: white;
-    color:#6214c7;
-    border:3px solid #6214c7;
+    color:rgb(30,30,30);
+    border:3px solid rgb(30,30,30);
     transition: 0.3s;
 }
 .icons-container-projects{
     color:rgb(30,30,30);
     display:flex;
+    justify-content: center;
     gap:0.7rem;
 }
 .icons-container-projects i{
-    font-size:23px;
+    font-size:20px;
 }
 .icons-container-projects img{
-    height:23px;
+    height:20px;
     object-fit: cover;
 }
 

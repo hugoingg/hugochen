@@ -11,9 +11,8 @@ import Mastermind from "./projectPages/mastermind";
 import Flowremi from "./projectPages/flowremi";
 import CompleterAI from "./projectPages/completerai";
 import DiagnoseAI from "./projectPages/diagnoseai";
-import Nakamura from "./projectPages/nakamura";
 import Sign2Speech from "./projectPages/sign2speech";
-import Socielle from "./projectPages/socielle";
+
 import Soil from "./projectPages/soil";
 
 const router = createBrowserRouter([
@@ -45,10 +44,10 @@ const router = createBrowserRouter([
         path: "/hugochen/CompleterAI",
         element: <CompleterAI />,
       },
-      {
-        path: "/hugochen/projects/Nakamura",
-        element: <Nakamura />,
-      },
+      // {
+      //   path: "/hugochen/projects/Nakamura",
+      //   element: <Nakamura />,
+      // },
       {
         path: "/hugochen/projects/Sign2Speech",
         element: <Sign2Speech />,
@@ -61,10 +60,10 @@ const router = createBrowserRouter([
         path: "/hugochen/projects/TldrPlus",
         element: <TldrPlus />,
       },
-      {
-        path: "/hugochen/projects/Socielle",
-        element: <Socielle />,
-      },
+      // {
+      //   path: "/hugochen/projects/Socielle",
+      //   element: <Socielle />,
+      // },
       {
         path: "/hugochen/projects/Soil",
         element: <Soil />,

@@ -9,7 +9,7 @@ import Flowremi from "./projectPages/flowremi";
 import CompleterAI from "./projectPages/completerai";
 import DiagnoseAI from "./projectPages/diagnoseai";
 import Sign2Speech from "./projectPages/sign2speech";
-import Nakamura from "./projectPages/nakamura";
+
 import Soil from "./projectPages/soil";
 import { Outlet } from "react-router-dom";
 
@@ -27,9 +27,6 @@ function App() {
       break;
     case "/hugochen/CompleterAI/":
       component = <CompleterAI />;
-      break;
-    case "/hugochen/projects/Nakamura":
-      component = <Nakamura />;
       break;
     case "/hugochen/projects/Sign2Speech":
       component = <Sign2Speech />;

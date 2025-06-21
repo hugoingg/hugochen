@@ -51,6 +51,11 @@
 .right-header a{
     text-decoration: none;
     color: black;
+    opacity: 0.8;
+}
+.right-header a:hover{
+    opacity: 1;
+    transition: 0.8s;
 }
 
 .header-text h2 {
@@ -374,34 +379,84 @@
 }
 
 @media (max-width:1150px) {
+    .header-text {
+        display: inline;
+    }
+    .header-text p {
+        justify-self: center;
+    }
+    .header-text .mycontacts-icons {
+        justify-self: center;
+    }
     .header-text h1 {
-        font-size: 35px;
+        font-size: 40px;
         justify-content: center;
         letter-spacing: 2px;
+        justify-self: center;
     }
     .header-text h2 {
         font-size: 16px;
+        justify-self: center;
     }
     .profile-image {
-        width:90px;
+        width:170px;
     }
-    .desc-container {
-        padding: 0 35px;
-    }
-    .desc-container p{
-        font-size:0.9rem;
-        line-height: 25px;
-    }
+
     .mycontacts-icons{
-        gap:2px;
+        gap:20px;
     }
     .mycontacts-icons a{
-        padding: 3px;
+        padding: 8px 0px;
     }
     .mycontacts-icons a i{
-        font-size:1.3rem;
-        padding: 3px;
+        font-size:1.5rem;
     }    
+    .education {
+        display: inline;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+    .edu-left{
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        background-color: #c8e1e4;
+        margin: 0;
+    }
+    .edu-right{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        background-color: #c8e1e4;
+    }
+    .edu-left img {
+        height: 170px;
+        width: auto;
+        padding-top: 15px;
+    }
+    .edu-right h2{
+        font-size: 40px;
+        justify-self: center;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .edu-segments {
+        display: inline;
+    }
+    .edu-segment h3{
+        font-size: 14px;
+        justify-self: center;
+    }
+    .edu-segment h4{
+        font-size: 13px;
+        justify-self: center;
+    }
+    .edu-segment p {
+        font-size: 12px;
+        justify-self: center;
+        padding-bottom: 10px;
+    }
 }
 
 

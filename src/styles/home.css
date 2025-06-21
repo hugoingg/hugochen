@@ -377,6 +377,9 @@
     opacity:1;
     transition:0.3s;
 }
+.mobile-profile {
+    display: none;
+}
 
 @media (max-width:1150px) {
     .header-text {
@@ -456,6 +459,59 @@
         font-size: 12px;
         justify-self: center;
         padding-bottom: 10px;
+    }
+    .internships {
+        display: inline;
+        flex-wrap: wrap;
+    }
+    .exp-images img{
+        height: 90px;
+        width: auto;
+    }
+    .exp-footnote {
+        font-size: 11px;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .about {
+        padding: 50px 80px;
+    }
+    .about-content {
+        display: inline;
+        margin: 0;
+    }
+    .about-content-left {
+        padding: 0;
+        width: 100%;
+    }
+    .about-content-left h2{
+        justify-self: center;
+        padding-bottom: 20px;
+    }
+    .about-content-left p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .mycontacts-icons2 {
+        justify-self: center;
+    }
+    .mycontacts-icons2 a i {
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+    }
+    .about-content-right{
+        display: none;
+    }
+    .mobile-profile{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .mobile-profile img {
+        height: 150px;
+        border-radius: 100%;
     }
 }
 

@@ -1,24 +1,13 @@
 import "./styles/home.css";
-import sld1 from "./media/sliders/sliders.png";
 import sld2 from "./media/sliders/sliders1.png";
-import sld3 from "./media/sliders/sliders2.png";
-import sld4 from "./media/sliders/sliders3.png";
-import sld5 from "./media/sliders/sliders4.png";
-import sld6 from "./media/sliders/sliders5.png";
-import sld7 from "./media/sliders/sliders6.png";
-// import picturePersonalWeb from "./media/LogoSC.png";
 import picFlowremi from "./media/flower.png";
 import picTLDR from "./media/bird.png";
-import picMastermind from "./media/LogoMM.png";
 import arduino from "./media/arduino-official.svg";
 import azure from "./media/azure-2.svg";
 import cpp from "./media/c.svg";
-// import LogoUIUX from "./media/LogoUIUX.png";
 import LogoAI from "./media/apple.png";
 import LogoSL from "./media/hands.png";
-import openai from "./media/OpenAI.png";
 import LogoSoil from "./media/cactus.png";
-import LogoCompai from "./media/LogoCompai.png";
 
 import profile from "./media/k.png";
 import about from "./media/web header.jpg";
@@ -312,6 +301,9 @@ function HomePage() {
       </div>
       <div className="about">
         <div className="about-content">
+          <div className="mobile-profile">
+            <img src={about} className="about-image" alt=""></img>
+          </div>
           <div className="about-content-left">
             <h2 id="about">About Me</h2>
             <p>

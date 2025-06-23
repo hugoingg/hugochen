@@ -41,12 +41,13 @@ function Centsible() {
             Design Patterns, and many more alike written purely in Java using
             the Android Studio library. As for data storage, we utilize MongoDB
             as our primary database, and Cloudinary for storing user's profile
-            images. The backend cloud server itself is hosted on Render. Inside
-            the cloud, resides the logic to detect unusual spending amount -
-            which is done by statistical detection of an outlier data, sampled
-            from the user's spending data. If it insufficient, the detection
-            will refer to a hardcoded numerical value. Find out more about this
-            project in this{" "}
+            images. The backend cloud server itself is containerized using
+            Docker and hosted on Render. Meanwhile, the frontend prototyping was
+            done on Figma. Inside the cloud, resides the logic to detect unusual
+            spending amount - which is done by statistical detection of an
+            outlier data, sampled from the user's spending data. If it
+            insufficient, the detection will refer to a hardcoded numerical
+            value. Find out more about this project in this{" "}
             <a href="https://www.linkedin.com/posts/kalista-phey_sutd-computing-embeddedsystems-activity-7326999488009588738-Umqi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEe9mc8Bg7F4msnJ_h2lHDwPhJQMl9UiL-0">
               LinkedIn post!
             </a>

@@ -165,6 +165,8 @@ function HomePage() {
               <div className="icons-container-projects">
                 <i className="fa-brands fa-android"></i>
                 <i className="fa-brands fa-java"></i>
+                <i className="fa-brands fa-figma"></i>
+                <i className="fa-brands fa-docker"></i>
               </div>
               <a href="/hugochen/projects/Centsible" className="btn-card">
                 Read More

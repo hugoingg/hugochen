@@ -9,7 +9,7 @@ function Centsible() {
       <div className="projects-Pages-title">
         <h1>Centsible</h1>
         <i>
-          <h5>Android Studio, Java, Figma, Docker</h5>
+          <h5>Android Studio, Java, Figma, Docker </h5>
         </i>
         <p>Jan 2025 - Apr 2025</p>
       </div>

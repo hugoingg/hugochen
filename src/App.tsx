@@ -9,7 +9,7 @@ import Flowremi from "./projectPages/flowremi";
 import CompleterAI from "./projectPages/completerai";
 import DiagnoseAI from "./projectPages/diagnoseai";
 import Sign2Speech from "./projectPages/sign2speech";
-
+import Centsible from "./projectPages/centsible";
 import Soil from "./projectPages/soil";
 import { Outlet } from "react-router-dom";
 
@@ -34,11 +34,12 @@ function App() {
     case "/hugochen/projects/DiagnoseAI":
       component = <DiagnoseAI />;
       break;
-    case "/hugochen/projects/Socielle":
-      component = <Flowremi />;
-      break;
     case "/hugochen/projects/Soil":
       component = <Soil />;
+      break;
+    case "/hugochen/projects/Centsible":
+      component = <Centsible />;
+      break;
   }
   return (
     <>

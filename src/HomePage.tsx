@@ -154,7 +154,7 @@ function HomePage() {
             </div>
           </div>
         </a> */}
-        <a href="/hugochen/projects/Soil">
+        <a href="/hugochen/projects/Centsible">
           <div className="card">
             <div className="symbols">
               <img src={speaker} className="symbol"></img>
@@ -163,15 +163,15 @@ function HomePage() {
               <h3>Centsible</h3>
               <p>Group Expense Tracking App</p>
               <div className="icons-container-projects">
-                <i className="fa-brands fa-python"></i>
+                <i className="fa-brands fa-android"></i>
+                <i className="fa-brands fa-java"></i>
               </div>
-              <a href="/hugochen/projects/Soil" className="btn-card">
+              <a href="/hugochen/projects/Centsible" className="btn-card">
                 Read More
               </a>
             </div>
           </div>
         </a>
-        <a href="/hugochen/projects/Soil"></a>
         <a href="/hugochen/projects/DiagnoseAI">
           <div className="card">
             <div className="symbols">
@@ -223,21 +223,23 @@ function HomePage() {
             </div>
           </div>
         </a>
-        <div className="card">
-          <div className="symbols">
-            <img src={fish} className="symbol"></img>
-          </div>
-          <div className="card-content">
-            <h3>I Want A Sushi</h3>
-            <p>Multiplayer Game Built Using FPGA</p>
-            <div className="icons-container-projects">
-              <i className="fa-brands fa-python"></i>
+        <a href="/hugochen/projects/iwas">
+          <div className="card">
+            <div className="symbols">
+              <img src={fish} className="symbol"></img>
             </div>
-            <a href="/hugochen/projects/Soil" className="btn-card">
-              Read More
-            </a>
+            <div className="card-content">
+              <h3>I Want A Sushi</h3>
+              <p>Multiplayer Game Built Using FPGA</p>
+              <div className="icons-container-projects">
+                <i className="fa fa-battery-full"></i>
+              </div>
+              <a href="/hugochen/projects/Soil" className="btn-card">
+                Read More
+              </a>
+            </div>
           </div>
-        </div>
+        </a>
         <a href="/hugochen/projects/Flowremi">
           <div className="card">
             <div className="symbols">

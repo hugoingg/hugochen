@@ -12,8 +12,9 @@ import Flowremi from "./projectPages/flowremi";
 import CompleterAI from "./projectPages/completerai";
 import DiagnoseAI from "./projectPages/diagnoseai";
 import Sign2Speech from "./projectPages/sign2speech";
-
+import Iwas from "./projectPages/iwas";
 import Soil from "./projectPages/soil";
+import Centsible from "./projectPages/centsible";
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,14 @@ const router = createBrowserRouter([
       {
         path: "/hugochen/projects/Soil",
         element: <Soil />,
+      },
+      {
+        path: "/hugochen/projects/Centsible",
+        element: <Centsible />,
+      },
+      {
+        path: "/hugochen/projects/iwas",
+        element: <Iwas />,
       },
     ],
   },

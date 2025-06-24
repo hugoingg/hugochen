@@ -52,7 +52,7 @@ function HomePage() {
                 <a href="https://www.linkedin.com/in/hugo-chen-4bb104297/">
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://mailto:l.hugochen@gmail.com">
+                <a href="mailto:l.hugochen@gmail.com">
                   <i className="fa-brands fa-google"></i>
                 </a>
               </div>
@@ -324,7 +324,7 @@ function HomePage() {
               <a href="https://www.linkedin.com/in/hugo-chen-4bb104297/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://mailto:l.hugochen@gmail.com">
+              <a href="mailto:l.hugochen@gmail.com">
                 <i className="fa-brands fa-google"></i>
               </a>
             </div>

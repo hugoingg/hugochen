@@ -236,7 +236,7 @@ function HomePage() {
               <div className="icons-container-projects">
                 <i className="fa fa-battery-full"></i>
               </div>
-              <a href="/hugochen/projects/Soil" className="btn-card">
+              <a href="/hugochen/projects/iwas" className="btn-card">
                 Read More
               </a>
             </div>

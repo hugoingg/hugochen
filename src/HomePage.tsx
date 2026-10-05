@@ -18,6 +18,8 @@ import fish from "./media/fish.png";
 
 import jellybean from "./media/jellybean.jpg";
 import gened from "./media/gened_pic.png";
+import digitalplacevision from "./media/digitalplacevision.jpg";
+
 import onemilab from "./media/1milabs.jpg";
 
 import dell from "./media/dell.jpg";
@@ -93,6 +95,12 @@ function HomePage() {
         <div className="exp-images">
           <div className="internships">
             <div className="internship-item">
+              <img src={digitalplacevision}></img>
+              <h4>Jan 2026 - Present</h4>
+              <h2>AI R&D Intern</h2>
+              <h3>Digital Place Vision, Singapore</h3>
+            </div>
+            <div className="internship-item">
               <img src={sld2}></img>
               <h4>June - Aug 2024</h4>
               <h2>Website Development Intern</h2>
@@ -100,7 +108,7 @@ function HomePage() {
             </div>
             <div className="internship-item">
               <img src={gened}></img>
-              <h4>Mar 2025 - Present</h4>
+              <h4>Mar 2025 - May 2026</h4>
               <h2>Founder, Software/AI Engineer</h2>
               <h3>GenEd, Singapore</h3>
             </div>
